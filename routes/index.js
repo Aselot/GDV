@@ -15,7 +15,6 @@ router.get('/test', function (req,res) {
 });
 
 router.get('/londonJSON',function (req,res) {
-    console.log(__dirname)
     let rawdata = fs.readFileSync(__dirname+'/../views/London.json');
     let jsonData = JSON.parse(rawdata);
     res.setHeader('Content-Type', 'application/json');
@@ -28,8 +27,11 @@ router.get('/London.json', function(res){
   })
 });
 
-router.get('/data/londonBoroughs.json', function(res){
-    res.send({"data":1})
+router.get('/data/londonBoroughs.json', function(req,res){
+    let rawdata = fs.readFileSync(__dirname+'/../data/londonBoroughs.json');
+    let jsonData = JSON.parse(rawdata);
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify(jsonData));
 });
 
 module.exports = router;
