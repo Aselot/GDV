@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 700,
+  "height": 500,
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/londonBoroughs.json",
+        "format": {
+          "type": "topojson",
+          "feature": "boroughs"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "stroke": "white",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "color": {
+          "value": "blue"
+        }
+      }
+    }
+  ]
+}
+

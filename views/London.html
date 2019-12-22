@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@5"></script>
+</head>
+<body>
+
+
+<div id="view"></div>
+<script>
+    console.log(document.URL, " 2")
+
+    jQuery.ajax({
+        url: "/londonJSON",
+        type: "GET",
+
+        contentType: 'application/json; charset=utf-8',
+        success: function (resultData) {
+            if (err)
+                alert(err)
+            console.log(data)
+            document.body.innerHTML = "<h1>" + data + "</h1>"
+            vegaEmbed('#view', resultData);
+
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+        },
+
+        timeout: 120000,
+    });
+
+    // $.getJSON('/londonJSON', function (err,data) {
+    //     if(err)
+    //         alert(err)
+    //     console.log(data)
+    //     document.body.innerHTML = "<h1>"+data+"</h1>"
+    //     vegaEmbed('#view', data);
+    // });
+</script>
+</body>
+</html>
