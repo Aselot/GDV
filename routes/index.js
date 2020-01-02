@@ -3,11 +3,11 @@ var router = express.Router();
 const fs = require('fs')
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/lo', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/lo', function (req,res) {
+router.get('/', function (req,res) {
   res.render("../views/London.html");
 });
 router.get('/test', function (req,res) {
@@ -21,11 +21,6 @@ router.get('/londonJSON',function (req,res) {
     res.end(JSON.stringify(jsonData));
 })
 
-router.get('/London.json', function(res){
-  var json = $.getJSON('London.json', function(json) {
-    console.log(json)
-  })
-});
 
 router.get('/data/londonBoroughs.json', function(req,res){
     let rawdata = fs.readFileSync(__dirname+'/../data/londonBoroughs.json');
