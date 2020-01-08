@@ -8,7 +8,7 @@ router.get('/lo', function(req, res, next) {
 });
 
 router.get('/', function (req,res) {
-  res.render("../views/London.html");
+  res.render("../views/test.html");
 });
 router.get('/test', function (req,res) {
     res.render("../views/test.html");
