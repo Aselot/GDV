@@ -57,31 +57,93 @@
 <script>
     var yourVlSpec = {
         "$schema": "https://vega.github.io/schema/vega/v5.json",
-        "width": 700,
-        "height": 500,
-        "config": {
-            "view": {
-                "stroke": "transparent"
-            }
-        },
+        "width": 200,
+        "height": 200,
+        "padding": 5,
+        "autosize": "pad",
+        // "config": {
+        //     "view": {
+        //         "stroke": "transparent"
+        //     }
+        // },
         "data": [
             {
-                "name": "loBorough",
-                "url": "data/londonBoroughs.json",
+                "name": "ethnicGroups",
+                "url": "data/ethnicGroups.json",
                 "format": {
                     "type": "topojson",
                     "feature": "boroughs"
                 }
             },
-            {}
+            {
+                "name": "annualEarnings",
+                "url": "data/annualEarning.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "boroughs"
+                }
+            },
         ],
-        "mark": {
-            "name": "marks",
-            "from": {"data": "loBorough"},
-            "type": "geoshape",
-            "stroke": "white",
-            "strokeWidth": 2
-        },
+
+        "scales": [
+            {
+                "name": "x",
+                "type": "linear",
+                "round": true,
+                "nice": true,
+                "zero": true,
+                "domain": {"data": "ethnicGroups", "field": "Asian"},
+                "range": "width"
+            },
+            {
+                "name": "y",
+                "type": "linear",
+                "round": true,
+                "nice": true,
+                "zero": true,
+                "domain": {"data": "annualEarning", "field": "Male FT weekly"},
+                "range": "height"
+            },
+        ],
+
+        "axes": [
+            {
+                "scale": "x",
+                "grid": true,
+                "domain": false,
+                "orient": "bottom",
+                "tickCount": 5,
+                "title": "ethnic Groups amount"
+            },
+            {
+                "scale": "y",
+                "grid": true,
+                "domain": false,
+                "orient": "left",
+                "titlePadding": 5,
+                "title": "payment per week"
+            }
+        ],
+
+        "marks": [
+            {
+                "name": "marks",
+                "type": "symbol",
+                "from": {"data": "source"},
+                "encode": {
+                    "update": {
+                        "x": {"scale": "x", "field": "Horsepower"},
+                        "y": {"scale": "y", "field": "Miles_per_Gallon"},
+                        "size": {"scale": "size", "field": "Acceleration"},
+                        "shape": {"value": "circle"},
+                        "strokeWidth": {"value": 2},
+                        "opacity": {"value": 0.5},
+                        "stroke": {"value": "#4682b4"},
+                        "fill": {"value": "transparent"}
+                    }
+                }
+            }
+        ],
         "encoding": {
             "color": {
                 "value": "blue"

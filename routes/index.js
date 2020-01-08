@@ -28,6 +28,18 @@ router.get('/data/londonBoroughs.json', function(req,res){
     res.setHeader('Content-Type', 'application/json');
     res.end(JSON.stringify(jsonData));
 });
+router.get('/data/annualEarning.json', function(req,res){
+    let rawdata = fs.readFileSync(__dirname+'/../data/annualEarning.json');
+    let jsonData = JSON.parse(rawdata);
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify(jsonData));
+});
+router.get('/data/ethnicGroups.json', function(req,res){
+    let rawdata = fs.readFileSync(__dirname+'/../data/ethnicGroups.json');
+    let jsonData = JSON.parse(rawdata);
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify(jsonData));
+});
 
 router.get('/xslx', function (req,res) {
     res.render("../views/xslx.html");
