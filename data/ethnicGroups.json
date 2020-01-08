@@ -1,0 +1,2095 @@
+{
+  "2012": [
+    {
+      "Code": "E09000001",
+      "Area": "City of London",
+      "White": "-",
+      "Asian": "-",
+      "Black": "-",
+      "Mixed/ Other": "-",
+      "Total": "-"
+    },
+    {
+      "Code": "E09000002",
+      "Area": "Barking and Dagenham",
+      "White": "106,000",
+      "Asian": "27,000",
+      "Black": "44,000",
+      "Mixed/ Other": "12,000",
+      "Total": "189,000"
+    },
+    {
+      "Code": "E09000003",
+      "Area": "Barnet",
+      "White": "235,000",
+      "Asian": "66,000",
+      "Black": "24,000",
+      "Mixed/ Other": "35,000",
+      "Total": "361,000"
+    },
+    {
+      "Code": "E09000004",
+      "Area": "Bexley",
+      "White": "186,000",
+      "Asian": "8,000",
+      "Black": "31,000",
+      "Mixed/ Other": "8,000",
+      "Total": "233,000"
+    },
+    {
+      "Code": "E09000005",
+      "Area": "Brent",
+      "White": "95,000",
+      "Asian": "109,000",
+      "Black": "58,000",
+      "Mixed/ Other": "50,000",
+      "Total": "312,000"
+    },
+    {
+      "Code": "E09000006",
+      "Area": "Bromley",
+      "White": "262,000",
+      "Asian": "19,000",
+      "Black": "14,000",
+      "Mixed/ Other": "18,000",
+      "Total": "312,000"
+    },
+    {
+      "Code": "E09000007",
+      "Area": "Camden",
+      "White": "134,000",
+      "Asian": "32,000",
+      "Black": "19,000",
+      "Mixed/ Other": "35,000",
+      "Total": "221,000"
+    },
+    {
+      "Code": "E09000008",
+      "Area": "Croydon",
+      "White": "212,000",
+      "Asian": "63,000",
+      "Black": "58,000",
+      "Mixed/ Other": "31,000",
+      "Total": "365,000"
+    },
+    {
+      "Code": "E09000009",
+      "Area": "Ealing",
+      "White": "169,000",
+      "Asian": "99,000",
+      "Black": "25,000",
+      "Mixed/ Other": "44,000",
+      "Total": "337,000"
+    },
+    {
+      "Code": "E09000010",
+      "Area": "Enfield",
+      "White": "203,000",
+      "Asian": "37,000",
+      "Black": "45,000",
+      "Mixed/ Other": "28,000",
+      "Total": "313,000"
+    },
+    {
+      "Code": "E09000011",
+      "Area": "Greenwich",
+      "White": "165,000",
+      "Asian": "32,000",
+      "Black": "47,000",
+      "Mixed/ Other": "13,000",
+      "Total": "257,000"
+    },
+    {
+      "Code": "E09000012",
+      "Area": "Hackney",
+      "White": "132,000",
+      "Asian": "30,000",
+      "Black": "46,000",
+      "Mixed/ Other": "41,000",
+      "Total": "251,000"
+    },
+    {
+      "Code": "E09000013",
+      "Area": "Hammersmith and Fulham",
+      "White": "123,000",
+      "Asian": "15,000",
+      "Black": "24,000",
+      "Mixed/ Other": "20,000",
+      "Total": "181,000"
+    },
+    {
+      "Code": "E09000014",
+      "Area": "Haringey",
+      "White": "155,000",
+      "Asian": "26,000",
+      "Black": "43,000",
+      "Mixed/ Other": "32,000",
+      "Total": "255,000"
+    },
+    {
+      "Code": "E09000015",
+      "Area": "Harrow",
+      "White": "94,000",
+      "Asian": "105,000",
+      "Black": "13,000",
+      "Mixed/ Other": "27,000",
+      "Total": "240,000"
+    },
+    {
+      "Code": "E09000016",
+      "Area": "Havering",
+      "White": "211,000",
+      "Asian": "8,000",
+      "Black": "12,000",
+      "Mixed/ Other": "6,000",
+      "Total": "237,000"
+    },
+    {
+      "Code": "E09000017",
+      "Area": "Hillingdon",
+      "White": "178,000",
+      "Asian": "70,000",
+      "Black": "16,000",
+      "Mixed/ Other": "15,000",
+      "Total": "279,000"
+    },
+    {
+      "Code": "E09000018",
+      "Area": "Hounslow",
+      "White": "147,000",
+      "Asian": "73,000",
+      "Black": "13,000",
+      "Mixed/ Other": "24,000",
+      "Total": "257,000"
+    },
+    {
+      "Code": "E09000019",
+      "Area": "Islington",
+      "White": "143,000",
+      "Asian": "19,000",
+      "Black": "24,000",
+      "Mixed/ Other": "23,000",
+      "Total": "209,000"
+    },
+    {
+      "Code": "E09000020",
+      "Area": "Kensington and Chelsea",
+      "White": "108,000",
+      "Asian": "13,000",
+      "Black": "11,000",
+      "Mixed/ Other": "22,000",
+      "Total": "154,000"
+    },
+    {
+      "Code": "E09000021",
+      "Area": "Kingston upon Thames",
+      "White": "120,000",
+      "Asian": "29,000",
+      "Black": "3,000",
+      "Mixed/ Other": "9,000",
+      "Total": "162,000"
+    },
+    {
+      "Code": "E09000022",
+      "Area": "Lambeth",
+      "White": "201,000",
+      "Asian": "15,000",
+      "Black": "71,000",
+      "Mixed/ Other": "20,000",
+      "Total": "306,000"
+    },
+    {
+      "Code": "E09000023",
+      "Area": "Lewisham",
+      "White": "160,000",
+      "Asian": "34,000",
+      "Black": "60,000",
+      "Mixed/ Other": "24,000",
+      "Total": "278,000"
+    },
+    {
+      "Code": "E09000024",
+      "Area": "Merton",
+      "White": "129,000",
+      "Asian": "40,000",
+      "Black": "18,000",
+      "Mixed/ Other": "12,000",
+      "Total": "200,000"
+    },
+    {
+      "Code": "E09000025",
+      "Area": "Newham",
+      "White": "83,000",
+      "Asian": "144,000",
+      "Black": "52,000",
+      "Mixed/ Other": "35,000",
+      "Total": "315,000"
+    },
+    {
+      "Code": "E09000026",
+      "Area": "Redbridge",
+      "White": "128,000",
+      "Asian": "116,000",
+      "Black": "19,000",
+      "Mixed/ Other": "20,000",
+      "Total": "282,000"
+    },
+    {
+      "Code": "E09000027",
+      "Area": "Richmond upon Thames",
+      "White": "164,000",
+      "Asian": "11,000",
+      "Black": "-",
+      "Mixed/ Other": "10,000",
+      "Total": "186,000"
+    },
+    {
+      "Code": "E09000028",
+      "Area": "Southwark",
+      "White": "171,000",
+      "Asian": "30,000",
+      "Black": "60,000",
+      "Mixed/ Other": "28,000",
+      "Total": "290,000"
+    },
+    {
+      "Code": "E09000029",
+      "Area": "Sutton",
+      "White": "147,000",
+      "Asian": "23,000",
+      "Black": "9,000",
+      "Mixed/ Other": "13,000",
+      "Total": "192,000"
+    },
+    {
+      "Code": "E09000030",
+      "Area": "Tower Hamlets",
+      "White": "100,000",
+      "Asian": "128,000",
+      "Black": "18,000",
+      "Mixed/ Other": "16,000",
+      "Total": "261,000"
+    },
+    {
+      "Code": "E09000031",
+      "Area": "Waltham Forest",
+      "White": "141,000",
+      "Asian": "56,000",
+      "Black": "38,000",
+      "Mixed/ Other": "25,000",
+      "Total": "260,000"
+    },
+    {
+      "Code": "E09000032",
+      "Area": "Wandsworth",
+      "White": "229,000",
+      "Asian": "26,000",
+      "Black": "29,000",
+      "Mixed/ Other": "23,000",
+      "Total": "306,000"
+    },
+    {
+      "Code": "E09000033",
+      "Area": "Westminster",
+      "White": "119,000",
+      "Asian": "30,000",
+      "Black": "19,000",
+      "Mixed/ Other": "55,000",
+      "Total": "222,000"
+    }
+  ],
+  "2013": [
+    {
+      "Code": "E09000001",
+      "Area": "City of London",
+      "White": "-",
+      "Asian": "-",
+      "Black": "-",
+      "Mixed/ Other": "-",
+      "Total": "-"
+    },
+    {
+      "Code": "E09000002",
+      "Area": "Barking and Dagenham",
+      "White": "106,000",
+      "Asian": "32,000",
+      "Black": "43,000",
+      "Mixed/ Other": "12,000",
+      "Total": "193,000"
+    },
+    {
+      "Code": "E09000003",
+      "Area": "Barnet",
+      "White": "248,000",
+      "Asian": "43,000",
+      "Black": "27,000",
+      "Mixed/ Other": "46,000",
+      "Total": "364,000"
+    },
+    {
+      "Code": "E09000004",
+      "Area": "Bexley",
+      "White": "194,000",
+      "Asian": "7,000",
+      "Black": "26,000",
+      "Mixed/ Other": "9,000",
+      "Total": "236,000"
+    },
+    {
+      "Code": "E09000005",
+      "Area": "Brent",
+      "White": "99,000",
+      "Asian": "110,000",
+      "Black": "55,000",
+      "Mixed/ Other": "51,000",
+      "Total": "315,000"
+    },
+    {
+      "Code": "E09000006",
+      "Area": "Bromley",
+      "White": "270,000",
+      "Asian": "20,000",
+      "Black": "13,000",
+      "Mixed/ Other": "13,000",
+      "Total": "316,000"
+    },
+    {
+      "Code": "E09000007",
+      "Area": "Camden",
+      "White": "146,000",
+      "Asian": "35,000",
+      "Black": "13,000",
+      "Mixed/ Other": "33,000",
+      "Total": "228,000"
+    },
+    {
+      "Code": "E09000008",
+      "Area": "Croydon",
+      "White": "204,000",
+      "Asian": "65,000",
+      "Black": "70,000",
+      "Mixed/ Other": "31,000",
+      "Total": "369,000"
+    },
+    {
+      "Code": "E09000009",
+      "Area": "Ealing",
+      "White": "153,000",
+      "Asian": "109,000",
+      "Black": "32,000",
+      "Mixed/ Other": "44,000",
+      "Total": "339,000"
+    },
+    {
+      "Code": "E09000010",
+      "Area": "Enfield",
+      "White": "204,000",
+      "Asian": "33,000",
+      "Black": "50,000",
+      "Mixed/ Other": "30,000",
+      "Total": "316,000"
+    },
+    {
+      "Code": "E09000011",
+      "Area": "Greenwich",
+      "White": "163,000",
+      "Asian": "40,000",
+      "Black": "47,000",
+      "Mixed/ Other": "11,000",
+      "Total": "262,000"
+    },
+    {
+      "Code": "E09000012",
+      "Area": "Hackney",
+      "White": "132,000",
+      "Asian": "23,000",
+      "Black": "62,000",
+      "Mixed/ Other": "39,000",
+      "Total": "255,000"
+    },
+    {
+      "Code": "E09000013",
+      "Area": "Hammersmith and Fulham",
+      "White": "128,000",
+      "Asian": "12,000",
+      "Black": "20,000",
+      "Mixed/ Other": "20,000",
+      "Total": "180,000"
+    },
+    {
+      "Code": "E09000014",
+      "Area": "Haringey",
+      "White": "159,000",
+      "Asian": "28,000",
+      "Black": "41,000",
+      "Mixed/ Other": "31,000",
+      "Total": "259,000"
+    },
+    {
+      "Code": "E09000015",
+      "Area": "Harrow",
+      "White": "105,000",
+      "Asian": "98,000",
+      "Black": "17,000",
+      "Mixed/ Other": "21,000",
+      "Total": "241,000"
+    },
+    {
+      "Code": "E09000016",
+      "Area": "Havering",
+      "White": "214,000",
+      "Asian": "13,000",
+      "Black": "7,000",
+      "Mixed/ Other": "6,000",
+      "Total": "240,000"
+    },
+    {
+      "Code": "E09000017",
+      "Area": "Hillingdon",
+      "White": "157,000",
+      "Asian": "83,000",
+      "Black": "15,000",
+      "Mixed/ Other": "28,000",
+      "Total": "283,000"
+    },
+    {
+      "Code": "E09000018",
+      "Area": "Hounslow",
+      "White": "135,000",
+      "Asian": "93,000",
+      "Black": "13,000",
+      "Mixed/ Other": "19,000",
+      "Total": "260,000"
+    },
+    {
+      "Code": "E09000019",
+      "Area": "Islington",
+      "White": "145,000",
+      "Asian": "14,000",
+      "Black": "29,000",
+      "Mixed/ Other": "24,000",
+      "Total": "213,000"
+    },
+    {
+      "Code": "E09000020",
+      "Area": "Kensington and Chelsea",
+      "White": "106,000",
+      "Asian": "11,000",
+      "Black": "13,000",
+      "Mixed/ Other": "24,000",
+      "Total": "155,000"
+    },
+    {
+      "Code": "E09000021",
+      "Area": "Kingston upon Thames",
+      "White": "127,000",
+      "Asian": "24,000",
+      "Black": "3,000",
+      "Mixed/ Other": "10,000",
+      "Total": "164,000"
+    },
+    {
+      "Code": "E09000022",
+      "Area": "Lambeth",
+      "White": "209,000",
+      "Asian": "13,000",
+      "Black": "60,000",
+      "Mixed/ Other": "28,000",
+      "Total": "310,000"
+    },
+    {
+      "Code": "E09000023",
+      "Area": "Lewisham",
+      "White": "178,000",
+      "Asian": "28,000",
+      "Black": "52,000",
+      "Mixed/ Other": "25,000",
+      "Total": "283,000"
+    },
+    {
+      "Code": "E09000024",
+      "Area": "Merton",
+      "White": "138,000",
+      "Asian": "29,000",
+      "Black": "21,000",
+      "Mixed/ Other": "13,000",
+      "Total": "202,000"
+    },
+    {
+      "Code": "E09000025",
+      "Area": "Newham",
+      "White": "76,000",
+      "Asian": "146,000",
+      "Black": "45,000",
+      "Mixed/ Other": "53,000",
+      "Total": "320,000"
+    },
+    {
+      "Code": "E09000026",
+      "Area": "Redbridge",
+      "White": "118,000",
+      "Asian": "124,000",
+      "Black": "23,000",
+      "Mixed/ Other": "22,000",
+      "Total": "287,000"
+    },
+    {
+      "Code": "E09000027",
+      "Area": "Richmond upon Thames",
+      "White": "168,000",
+      "Asian": "10,000",
+      "Black": "-",
+      "Mixed/ Other": "10,000",
+      "Total": "189,000"
+    },
+    {
+      "Code": "E09000028",
+      "Area": "Southwark",
+      "White": "176,000",
+      "Asian": "23,000",
+      "Black": "70,000",
+      "Mixed/ Other": "28,000",
+      "Total": "297,000"
+    },
+    {
+      "Code": "E09000029",
+      "Area": "Sutton",
+      "White": "147,000",
+      "Asian": "28,000",
+      "Black": "10,000",
+      "Mixed/ Other": "9,000",
+      "Total": "194,000"
+    },
+    {
+      "Code": "E09000030",
+      "Area": "Tower Hamlets",
+      "White": "110,000",
+      "Asian": "126,000",
+      "Black": "12,000",
+      "Mixed/ Other": "24,000",
+      "Total": "272,000"
+    },
+    {
+      "Code": "E09000031",
+      "Area": "Waltham Forest",
+      "White": "138,000",
+      "Asian": "60,000",
+      "Black": "43,000",
+      "Mixed/ Other": "23,000",
+      "Total": "264,000"
+    },
+    {
+      "Code": "E09000032",
+      "Area": "Wandsworth",
+      "White": "234,000",
+      "Asian": "30,000",
+      "Black": "26,000",
+      "Mixed/ Other": "18,000",
+      "Total": "308,000"
+    },
+    {
+      "Code": "E09000033",
+      "Area": "Westminster",
+      "White": "136,000",
+      "Asian": "25,000",
+      "Black": "12,000",
+      "Mixed/ Other": "50,000",
+      "Total": "224,000"
+    }
+  ],
+  "2014": [
+    {
+      "Code": "E09000001",
+      "Area": "City of London",
+      "White": "-",
+      "Asian": "-",
+      "Black": "-",
+      "Mixed/ Other": "-",
+      "Total": "-"
+    },
+    {
+      "Code": "E09000002",
+      "Area": "Barking and Dagenham",
+      "White": "99,000",
+      "Asian": "33,000",
+      "Black": "44,000",
+      "Mixed/ Other": "22,000",
+      "Total": "198,000"
+    },
+    {
+      "Code": "E09000003",
+      "Area": "Barnet",
+      "White": "242,000",
+      "Asian": "53,000",
+      "Black": "16,000",
+      "Mixed/ Other": "57,000",
+      "Total": "367,000"
+    },
+    {
+      "Code": "E09000004",
+      "Area": "Bexley",
+      "White": "193,000",
+      "Asian": "10,000",
+      "Black": "30,000",
+      "Mixed/ Other": "6,000",
+      "Total": "239,000"
+    },
+    {
+      "Code": "E09000005",
+      "Area": "Brent",
+      "White": "117,000",
+      "Asian": "99,000",
+      "Black": "53,000",
+      "Mixed/ Other": "49,000",
+      "Total": "318,000"
+    },
+    {
+      "Code": "E09000006",
+      "Area": "Bromley",
+      "White": "269,000",
+      "Asian": "20,000",
+      "Black": "14,000",
+      "Mixed/ Other": "16,000",
+      "Total": "318,000"
+    },
+    {
+      "Code": "E09000007",
+      "Area": "Camden",
+      "White": "154,000",
+      "Asian": "32,000",
+      "Black": "17,000",
+      "Mixed/ Other": "31,000",
+      "Total": "233,000"
+    },
+    {
+      "Code": "E09000008",
+      "Area": "Croydon",
+      "White": "229,000",
+      "Asian": "48,000",
+      "Black": "75,000",
+      "Mixed/ Other": "21,000",
+      "Total": "373,000"
+    },
+    {
+      "Code": "E09000009",
+      "Area": "Ealing",
+      "White": "170,000",
+      "Asian": "94,000",
+      "Black": "33,000",
+      "Mixed/ Other": "40,000",
+      "Total": "337,000"
+    },
+    {
+      "Code": "E09000010",
+      "Area": "Enfield",
+      "White": "200,000",
+      "Asian": "34,000",
+      "Black": "60,000",
+      "Mixed/ Other": "26,000",
+      "Total": "319,000"
+    },
+    {
+      "Code": "E09000011",
+      "Area": "Greenwich",
+      "White": "168,000",
+      "Asian": "36,000",
+      "Black": "43,000",
+      "Mixed/ Other": "20,000",
+      "Total": "266,000"
+    },
+    {
+      "Code": "E09000012",
+      "Area": "Hackney",
+      "White": "135,000",
+      "Asian": "19,000",
+      "Black": "63,000",
+      "Mixed/ Other": "45,000",
+      "Total": "262,000"
+    },
+    {
+      "Code": "E09000013",
+      "Area": "Hammersmith and Fulham",
+      "White": "127,000",
+      "Asian": "14,000",
+      "Black": "18,000",
+      "Mixed/ Other": "21,000",
+      "Total": "180,000"
+    },
+    {
+      "Code": "E09000014",
+      "Area": "Haringey",
+      "White": "160,000",
+      "Asian": "25,000",
+      "Black": "49,000",
+      "Mixed/ Other": "28,000",
+      "Total": "262,000"
+    },
+    {
+      "Code": "E09000015",
+      "Area": "Harrow",
+      "White": "99,000",
+      "Asian": "102,000",
+      "Black": "16,000",
+      "Mixed/ Other": "26,000",
+      "Total": "243,000"
+    },
+    {
+      "Code": "E09000016",
+      "Area": "Havering",
+      "White": "211,000",
+      "Asian": "13,000",
+      "Black": "8,000",
+      "Mixed/ Other": "12,000",
+      "Total": "244,000"
+    },
+    {
+      "Code": "E09000017",
+      "Area": "Hillingdon",
+      "White": "170,000",
+      "Asian": "71,000",
+      "Black": "21,000",
+      "Mixed/ Other": "27,000",
+      "Total": "289,000"
+    },
+    {
+      "Code": "E09000018",
+      "Area": "Hounslow",
+      "White": "139,000",
+      "Asian": "90,000",
+      "Black": "12,000",
+      "Mixed/ Other": "22,000",
+      "Total": "263,000"
+    },
+    {
+      "Code": "E09000019",
+      "Area": "Islington",
+      "White": "155,000",
+      "Asian": "17,000",
+      "Black": "19,000",
+      "Mixed/ Other": "28,000",
+      "Total": "219,000"
+    },
+    {
+      "Code": "E09000020",
+      "Area": "Kensington and Chelsea",
+      "White": "107,000",
+      "Asian": "12,000",
+      "Black": "14,000",
+      "Mixed/ Other": "23,000",
+      "Total": "156,000"
+    },
+    {
+      "Code": "E09000021",
+      "Area": "Kingston upon Thames",
+      "White": "122,000",
+      "Asian": "21,000",
+      "Black": "7,000",
+      "Mixed/ Other": "17,000",
+      "Total": "167,000"
+    },
+    {
+      "Code": "E09000022",
+      "Area": "Lambeth",
+      "White": "209,000",
+      "Asian": "11,000",
+      "Black": "66,000",
+      "Mixed/ Other": "28,000",
+      "Total": "314,000"
+    },
+    {
+      "Code": "E09000023",
+      "Area": "Lewisham",
+      "White": "170,000",
+      "Asian": "27,000",
+      "Black": "65,000",
+      "Mixed/ Other": "27,000",
+      "Total": "288,000"
+    },
+    {
+      "Code": "E09000024",
+      "Area": "Merton",
+      "White": "123,000",
+      "Asian": "36,000",
+      "Black": "28,000",
+      "Mixed/ Other": "16,000",
+      "Total": "203,000"
+    },
+    {
+      "Code": "E09000025",
+      "Area": "Newham",
+      "White": "96,000",
+      "Asian": "143,000",
+      "Black": "47,000",
+      "Mixed/ Other": "41,000",
+      "Total": "327,000"
+    },
+    {
+      "Code": "E09000026",
+      "Area": "Redbridge",
+      "White": "133,000",
+      "Asian": "112,000",
+      "Black": "24,000",
+      "Mixed/ Other": "22,000",
+      "Total": "291,000"
+    },
+    {
+      "Code": "E09000027",
+      "Area": "Richmond upon Thames",
+      "White": "165,000",
+      "Asian": "10,000",
+      "Black": "4,000",
+      "Mixed/ Other": "13,000",
+      "Total": "192,000"
+    },
+    {
+      "Code": "E09000028",
+      "Area": "Southwark",
+      "White": "172,000",
+      "Asian": "26,000",
+      "Black": "74,000",
+      "Mixed/ Other": "29,000",
+      "Total": "301,000"
+    },
+    {
+      "Code": "E09000029",
+      "Area": "Sutton",
+      "White": "143,000",
+      "Asian": "31,000",
+      "Black": "6,000",
+      "Mixed/ Other": "17,000",
+      "Total": "196,000"
+    },
+    {
+      "Code": "E09000030",
+      "Area": "Tower Hamlets",
+      "White": "112,000",
+      "Asian": "126,000",
+      "Black": "19,000",
+      "Mixed/ Other": "26,000",
+      "Total": "283,000"
+    },
+    {
+      "Code": "E09000031",
+      "Area": "Waltham Forest",
+      "White": "138,000",
+      "Asian": "57,000",
+      "Black": "47,000",
+      "Mixed/ Other": "24,000",
+      "Total": "266,000"
+    },
+    {
+      "Code": "E09000032",
+      "Area": "Wandsworth",
+      "White": "224,000",
+      "Asian": "38,000",
+      "Black": "27,000",
+      "Mixed/ Other": "21,000",
+      "Total": "310,000"
+    },
+    {
+      "Code": "E09000033",
+      "Area": "Westminster",
+      "White": "134,000",
+      "Asian": "24,000",
+      "Black": "20,000",
+      "Mixed/ Other": "51,000",
+      "Total": "229,000"
+    }
+  ],
+  "2015": [
+    {
+      "Code": "E09000001",
+      "Area": "City of London",
+      "White": "-",
+      "Asian": "-",
+      "Black": "-",
+      "Mixed/ Other": "-",
+      "Total": "8,000"
+    },
+    {
+      "Code": "E09000002",
+      "Area": "Barking and Dagenham",
+      "White": "95,000",
+      "Asian": "41,000",
+      "Black": "52,000",
+      "Mixed/ Other": "14,000",
+      "Total": "202,000"
+    },
+    {
+      "Code": "E09000003",
+      "Area": "Barnet",
+      "White": "247,000",
+      "Asian": "54,000",
+      "Black": "29,000",
+      "Mixed/ Other": "43,000",
+      "Total": "373,000"
+    },
+    {
+      "Code": "E09000004",
+      "Area": "Bexley",
+      "White": "195,000",
+      "Asian": "15,000",
+      "Black": "23,000",
+      "Mixed/ Other": "7,000",
+      "Total": "240,000"
+    },
+    {
+      "Code": "E09000005",
+      "Area": "Brent",
+      "White": "108,000",
+      "Asian": "108,000",
+      "Black": "55,000",
+      "Mixed/ Other": "50,000",
+      "Total": "321,000"
+    },
+    {
+      "Code": "E09000006",
+      "Area": "Bromley",
+      "White": "259,000",
+      "Asian": "16,000",
+      "Black": "31,000",
+      "Mixed/ Other": "17,000",
+      "Total": "323,000"
+    },
+    {
+      "Code": "E09000007",
+      "Area": "Camden",
+      "White": "158,000",
+      "Asian": "27,000",
+      "Black": "25,000",
+      "Mixed/ Other": "30,000",
+      "Total": "240,000"
+    },
+    {
+      "Code": "E09000008",
+      "Area": "Croydon",
+      "White": "221,000",
+      "Asian": "61,000",
+      "Black": "66,000",
+      "Mixed/ Other": "29,000",
+      "Total": "377,000"
+    },
+    {
+      "Code": "E09000009",
+      "Area": "Ealing",
+      "White": "160,000",
+      "Asian": "102,000",
+      "Black": "37,000",
+      "Mixed/ Other": "41,000",
+      "Total": "339,000"
+    },
+    {
+      "Code": "E09000010",
+      "Area": "Enfield",
+      "White": "192,000",
+      "Asian": "31,000",
+      "Black": "66,000",
+      "Mixed/ Other": "33,000",
+      "Total": "321,000"
+    },
+    {
+      "Code": "E09000011",
+      "Area": "Greenwich",
+      "White": "170,000",
+      "Asian": "30,000",
+      "Black": "51,000",
+      "Mixed/ Other": "20,000",
+      "Total": "272,000"
+    },
+    {
+      "Code": "E09000012",
+      "Area": "Hackney",
+      "White": "145,000",
+      "Asian": "19,000",
+      "Black": "55,000",
+      "Mixed/ Other": "48,000",
+      "Total": "268,000"
+    },
+    {
+      "Code": "E09000013",
+      "Area": "Hammersmith and Fulham",
+      "White": "119,000",
+      "Asian": "15,000",
+      "Black": "23,000",
+      "Mixed/ Other": "23,000",
+      "Total": "180,000"
+    },
+    {
+      "Code": "E09000014",
+      "Area": "Haringey",
+      "White": "164,000",
+      "Asian": "21,000",
+      "Black": "46,000",
+      "Mixed/ Other": "36,000",
+      "Total": "267,000"
+    },
+    {
+      "Code": "E09000015",
+      "Area": "Harrow",
+      "White": "103,000",
+      "Asian": "106,000",
+      "Black": "13,000",
+      "Mixed/ Other": "23,000",
+      "Total": "245,000"
+    },
+    {
+      "Code": "E09000016",
+      "Area": "Havering",
+      "White": "217,000",
+      "Asian": "13,000",
+      "Black": "11,000",
+      "Mixed/ Other": "7,000",
+      "Total": "248,000"
+    },
+    {
+      "Code": "E09000017",
+      "Area": "Hillingdon",
+      "White": "159,000",
+      "Asian": "74,000",
+      "Black": "36,000",
+      "Mixed/ Other": "24,000",
+      "Total": "293,000"
+    },
+    {
+      "Code": "E09000018",
+      "Area": "Hounslow",
+      "White": "128,000",
+      "Asian": "92,000",
+      "Black": "20,000",
+      "Mixed/ Other": "23,000",
+      "Total": "264,000"
+    },
+    {
+      "Code": "E09000019",
+      "Area": "Islington",
+      "White": "151,000",
+      "Asian": "22,000",
+      "Black": "21,000",
+      "Mixed/ Other": "30,000",
+      "Total": "225,000"
+    },
+    {
+      "Code": "E09000020",
+      "Area": "Kensington and Chelsea",
+      "White": "104,000",
+      "Asian": "12,000",
+      "Black": "15,000",
+      "Mixed/ Other": "25,000",
+      "Total": "156,000"
+    },
+    {
+      "Code": "E09000021",
+      "Area": "Kingston upon Thames",
+      "White": "130,000",
+      "Asian": "20,000",
+      "Black": "2,000",
+      "Mixed/ Other": "16,000",
+      "Total": "169,000"
+    },
+    {
+      "Code": "E09000022",
+      "Area": "Lambeth",
+      "White": "199,000",
+      "Asian": "13,000",
+      "Black": "71,000",
+      "Mixed/ Other": "33,000",
+      "Total": "316,000"
+    },
+    {
+      "Code": "E09000023",
+      "Area": "Lewisham",
+      "White": "161,000",
+      "Asian": "31,000",
+      "Black": "77,000",
+      "Mixed/ Other": "24,000",
+      "Total": "293,000"
+    },
+    {
+      "Code": "E09000024",
+      "Area": "Merton",
+      "White": "134,000",
+      "Asian": "31,000",
+      "Black": "24,000",
+      "Mixed/ Other": "15,000",
+      "Total": "204,000"
+    },
+    {
+      "Code": "E09000025",
+      "Area": "Newham",
+      "White": "107,000",
+      "Asian": "128,000",
+      "Black": "60,000",
+      "Mixed/ Other": "40,000",
+      "Total": "335,000"
+    },
+    {
+      "Code": "E09000026",
+      "Area": "Redbridge",
+      "White": "123,000",
+      "Asian": "140,000",
+      "Black": "19,000",
+      "Mixed/ Other": "15,000",
+      "Total": "296,000"
+    },
+    {
+      "Code": "E09000027",
+      "Area": "Richmond upon Thames",
+      "White": "166,000",
+      "Asian": "11,000",
+      "Black": "3,000",
+      "Mixed/ Other": "12,000",
+      "Total": "191,000"
+    },
+    {
+      "Code": "E09000028",
+      "Area": "Southwark",
+      "White": "165,000",
+      "Asian": "22,000",
+      "Black": "81,000",
+      "Mixed/ Other": "37,000",
+      "Total": "306,000"
+    },
+    {
+      "Code": "E09000029",
+      "Area": "Sutton",
+      "White": "152,000",
+      "Asian": "27,000",
+      "Black": "10,000",
+      "Mixed/ Other": "10,000",
+      "Total": "198,000"
+    },
+    {
+      "Code": "E09000030",
+      "Area": "Tower Hamlets",
+      "White": "109,000",
+      "Asian": "132,000",
+      "Black": "28,000",
+      "Mixed/ Other": "22,000",
+      "Total": "291,000"
+    },
+    {
+      "Code": "E09000031",
+      "Area": "Waltham Forest",
+      "White": "140,000",
+      "Asian": "61,000",
+      "Black": "46,000",
+      "Mixed/ Other": "20,000",
+      "Total": "268,000"
+    },
+    {
+      "Code": "E09000032",
+      "Area": "Wandsworth",
+      "White": "233,000",
+      "Asian": "38,000",
+      "Black": "24,000",
+      "Mixed/ Other": "22,000",
+      "Total": "316,000"
+    },
+    {
+      "Code": "E09000033",
+      "Area": "Westminster",
+      "White": "132,000",
+      "Asian": "27,000",
+      "Black": "26,000",
+      "Mixed/ Other": "48,000",
+      "Total": "233,000"
+    }
+  ],
+  "2016": [
+    {
+      "Code": "E09000001",
+      "Area": "City of London",
+      "White": "-",
+      "Asian": "-",
+      "Black": "-",
+      "Mixed/ Other": "-",
+      "Total": "-"
+    },
+    {
+      "Code": "E09000002",
+      "Area": "Barking and Dagenham",
+      "White": "106,000",
+      "Asian": "41,000",
+      "Black": "47,000",
+      "Mixed/ Other": "13,000",
+      "Total": "207,000"
+    },
+    {
+      "Code": "E09000003",
+      "Area": "Barnet",
+      "White": "233,000",
+      "Asian": "68,000",
+      "Black": "22,000",
+      "Mixed/ Other": "55,000",
+      "Total": "378,000"
+    },
+    {
+      "Code": "E09000004",
+      "Area": "Bexley",
+      "White": "192,000",
+      "Asian": "18,000",
+      "Black": "28,000",
+      "Mixed/ Other": "5,000",
+      "Total": "243,000"
+    },
+    {
+      "Code": "E09000005",
+      "Area": "Brent",
+      "White": "117,000",
+      "Asian": "106,000",
+      "Black": "53,000",
+      "Mixed/ Other": "49,000",
+      "Total": "324,000"
+    },
+    {
+      "Code": "E09000006",
+      "Area": "Bromley",
+      "White": "272,000",
+      "Asian": "17,000",
+      "Black": "23,000",
+      "Mixed/ Other": "13,000",
+      "Total": "325,000"
+    },
+    {
+      "Code": "E09000007",
+      "Area": "Camden",
+      "White": "152,000",
+      "Asian": "28,000",
+      "Black": "28,000",
+      "Mixed/ Other": "37,000",
+      "Total": "246,000"
+    },
+    {
+      "Code": "E09000008",
+      "Area": "Croydon",
+      "White": "206,000",
+      "Asian": "75,000",
+      "Black": "65,000",
+      "Mixed/ Other": "35,000",
+      "Total": "380,000"
+    },
+    {
+      "Code": "E09000009",
+      "Area": "Ealing",
+      "White": "151,000",
+      "Asian": "105,000",
+      "Black": "31,000",
+      "Mixed/ Other": "53,000",
+      "Total": "340,000"
+    },
+    {
+      "Code": "E09000010",
+      "Area": "Enfield",
+      "White": "195,000",
+      "Asian": "36,000",
+      "Black": "63,000",
+      "Mixed/ Other": "35,000",
+      "Total": "328,000"
+    },
+    {
+      "Code": "E09000011",
+      "Area": "Greenwich",
+      "White": "164,000",
+      "Asian": "43,000",
+      "Black": "54,000",
+      "Mixed/ Other": "15,000",
+      "Total": "276,000"
+    },
+    {
+      "Code": "E09000012",
+      "Area": "Hackney",
+      "White": "153,000",
+      "Asian": "23,000",
+      "Black": "49,000",
+      "Mixed/ Other": "48,000",
+      "Total": "272,000"
+    },
+    {
+      "Code": "E09000013",
+      "Area": "Hammersmith and Fulham",
+      "White": "121,000",
+      "Asian": "14,000",
+      "Black": "29,000",
+      "Mixed/ Other": "16,000",
+      "Total": "180,000"
+    },
+    {
+      "Code": "E09000014",
+      "Area": "Haringey",
+      "White": "168,000",
+      "Asian": "17,000",
+      "Black": "40,000",
+      "Mixed/ Other": "46,000",
+      "Total": "270,000"
+    },
+    {
+      "Code": "E09000015",
+      "Area": "Harrow",
+      "White": "110,000",
+      "Asian": "109,000",
+      "Black": "14,000",
+      "Mixed/ Other": "14,000",
+      "Total": "247,000"
+    },
+    {
+      "Code": "E09000016",
+      "Area": "Havering",
+      "White": "219,000",
+      "Asian": "12,000",
+      "Black": "13,000",
+      "Mixed/ Other": "8,000",
+      "Total": "252,000"
+    },
+    {
+      "Code": "E09000017",
+      "Area": "Hillingdon",
+      "White": "172,000",
+      "Asian": "74,000",
+      "Black": "23,000",
+      "Mixed/ Other": "28,000",
+      "Total": "297,000"
+    },
+    {
+      "Code": "E09000018",
+      "Area": "Hounslow",
+      "White": "119,000",
+      "Asian": "103,000",
+      "Black": "17,000",
+      "Mixed/ Other": "26,000",
+      "Total": "266,000"
+    },
+    {
+      "Code": "E09000019",
+      "Area": "Islington",
+      "White": "143,000",
+      "Asian": "17,000",
+      "Black": "32,000",
+      "Mixed/ Other": "37,000",
+      "Total": "229,000"
+    },
+    {
+      "Code": "E09000020",
+      "Area": "Kensington and Chelsea",
+      "White": "102,000",
+      "Asian": "13,000",
+      "Black": "16,000",
+      "Mixed/ Other": "24,000",
+      "Total": "155,000"
+    },
+    {
+      "Code": "E09000021",
+      "Area": "Kingston upon Thames",
+      "White": "126,000",
+      "Asian": "23,000",
+      "Black": "5,000",
+      "Mixed/ Other": "18,000",
+      "Total": "171,000"
+    },
+    {
+      "Code": "E09000022",
+      "Area": "Lambeth",
+      "White": "203,000",
+      "Asian": "14,000",
+      "Black": "77,000",
+      "Mixed/ Other": "26,000",
+      "Total": "320,000"
+    },
+    {
+      "Code": "E09000023",
+      "Area": "Lewisham",
+      "White": "186,000",
+      "Asian": "22,000",
+      "Black": "65,000",
+      "Mixed/ Other": "24,000",
+      "Total": "297,000"
+    },
+    {
+      "Code": "E09000024",
+      "Area": "Merton",
+      "White": "129,000",
+      "Asian": "38,000",
+      "Black": "21,000",
+      "Mixed/ Other": "18,000",
+      "Total": "205,000"
+    },
+    {
+      "Code": "E09000025",
+      "Area": "Newham",
+      "White": "114,000",
+      "Asian": "147,000",
+      "Black": "49,000",
+      "Mixed/ Other": "32,000",
+      "Total": "343,000"
+    },
+    {
+      "Code": "E09000026",
+      "Area": "Redbridge",
+      "White": "125,000",
+      "Asian": "133,000",
+      "Black": "24,000",
+      "Mixed/ Other": "18,000",
+      "Total": "300,000"
+    },
+    {
+      "Code": "E09000027",
+      "Area": "Richmond upon Thames",
+      "White": "169,000",
+      "Asian": "8,000",
+      "Black": "3,000",
+      "Mixed/ Other": "12,000",
+      "Total": "192,000"
+    },
+    {
+      "Code": "E09000028",
+      "Area": "Southwark",
+      "White": "170,000",
+      "Asian": "29,000",
+      "Black": "71,000",
+      "Mixed/ Other": "37,000",
+      "Total": "308,000"
+    },
+    {
+      "Code": "E09000029",
+      "Area": "Sutton",
+      "White": "145,000",
+      "Asian": "25,000",
+      "Black": "13,000",
+      "Mixed/ Other": "18,000",
+      "Total": "200,000"
+    },
+    {
+      "Code": "E09000030",
+      "Area": "Tower Hamlets",
+      "White": "124,000",
+      "Asian": "130,000",
+      "Black": "28,000",
+      "Mixed/ Other": "18,000",
+      "Total": "299,000"
+    },
+    {
+      "Code": "E09000031",
+      "Area": "Waltham Forest",
+      "White": "156,000",
+      "Asian": "57,000",
+      "Black": "37,000",
+      "Mixed/ Other": "23,000",
+      "Total": "273,000"
+    },
+    {
+      "Code": "E09000032",
+      "Area": "Wandsworth",
+      "White": "227,000",
+      "Asian": "30,000",
+      "Black": "25,000",
+      "Mixed/ Other": "34,000",
+      "Total": "317,000"
+    },
+    {
+      "Code": "E09000033",
+      "Area": "Westminster",
+      "White": "136,000",
+      "Asian": "31,000",
+      "Black": "18,000",
+      "Mixed/ Other": "54,000",
+      "Total": "239,000"
+    }
+  ],
+  "2017": [
+    {
+      "Code": "E09000001",
+      "Area": "City of London",
+      "White": "10,000",
+      "Asian": "-",
+      "Black": "-",
+      "Mixed/ Other": "-",
+      "Total": "14,000"
+    },
+    {
+      "Code": "E09000002",
+      "Area": "Barking and Dagenham",
+      "White": "104,000",
+      "Asian": "48,000",
+      "Black": "41,000",
+      "Mixed/ Other": "17,000",
+      "Total": "210,000"
+    },
+    {
+      "Code": "E09000003",
+      "Area": "Barnet",
+      "White": "264,000",
+      "Asian": "57,000",
+      "Black": "14,000",
+      "Mixed/ Other": "49,000",
+      "Total": "384,000"
+    },
+    {
+      "Code": "E09000004",
+      "Area": "Bexley",
+      "White": "194,000",
+      "Asian": "16,000",
+      "Black": "26,000",
+      "Mixed/ Other": "8,000",
+      "Total": "245,000"
+    },
+    {
+      "Code": "E09000005",
+      "Area": "Brent",
+      "White": "121,000",
+      "Asian": "101,000",
+      "Black": "61,000",
+      "Mixed/ Other": "44,000",
+      "Total": "327,000"
+    },
+    {
+      "Code": "E09000006",
+      "Area": "Bromley",
+      "White": "255,000",
+      "Asian": "26,000",
+      "Black": "18,000",
+      "Mixed/ Other": "27,000",
+      "Total": "326,000"
+    },
+    {
+      "Code": "E09000007",
+      "Area": "Camden",
+      "White": "157,000",
+      "Asian": "32,000",
+      "Black": "22,000",
+      "Mixed/ Other": "40,000",
+      "Total": "251,000"
+    },
+    {
+      "Code": "E09000008",
+      "Area": "Croydon",
+      "White": "213,000",
+      "Asian": "77,000",
+      "Black": "69,000",
+      "Mixed/ Other": "22,000",
+      "Total": "381,000"
+    },
+    {
+      "Code": "E09000009",
+      "Area": "Ealing",
+      "White": "156,000",
+      "Asian": "113,000",
+      "Black": "27,000",
+      "Mixed/ Other": "41,000",
+      "Total": "337,000"
+    },
+    {
+      "Code": "E09000010",
+      "Area": "Enfield",
+      "White": "213,000",
+      "Asian": "40,000",
+      "Black": "46,000",
+      "Mixed/ Other": "31,000",
+      "Total": "330,000"
+    },
+    {
+      "Code": "E09000011",
+      "Area": "Greenwich",
+      "White": "178,000",
+      "Asian": "25,000",
+      "Black": "59,000",
+      "Mixed/ Other": "18,000",
+      "Total": "280,000"
+    },
+    {
+      "Code": "E09000012",
+      "Area": "Hackney",
+      "White": "150,000",
+      "Asian": "28,000",
+      "Black": "48,000",
+      "Mixed/ Other": "48,000",
+      "Total": "275,000"
+    },
+    {
+      "Code": "E09000013",
+      "Area": "Hammersmith and Fulham",
+      "White": "122,000",
+      "Asian": "24,000",
+      "Black": "22,000",
+      "Mixed/ Other": "13,000",
+      "Total": "181,000"
+    },
+    {
+      "Code": "E09000014",
+      "Area": "Haringey",
+      "White": "180,000",
+      "Asian": "19,000",
+      "Black": "39,000",
+      "Mixed/ Other": "32,000",
+      "Total": "269,000"
+    },
+    {
+      "Code": "E09000015",
+      "Area": "Harrow",
+      "White": "110,000",
+      "Asian": "103,000",
+      "Black": "10,000",
+      "Mixed/ Other": "24,000",
+      "Total": "247,000"
+    },
+    {
+      "Code": "E09000016",
+      "Area": "Havering",
+      "White": "219,000",
+      "Asian": "13,000",
+      "Black": "9,000",
+      "Mixed/ Other": "14,000",
+      "Total": "254,000"
+    },
+    {
+      "Code": "E09000017",
+      "Area": "Hillingdon",
+      "White": "168,000",
+      "Asian": "91,000",
+      "Black": "16,000",
+      "Mixed/ Other": "25,000",
+      "Total": "299,000"
+    },
+    {
+      "Code": "E09000018",
+      "Area": "Hounslow",
+      "White": "119,000",
+      "Asian": "92,000",
+      "Black": "23,000",
+      "Mixed/ Other": "33,000",
+      "Total": "267,000"
+    },
+    {
+      "Code": "E09000019",
+      "Area": "Islington",
+      "White": "150,000",
+      "Asian": "17,000",
+      "Black": "26,000",
+      "Mixed/ Other": "39,000",
+      "Total": "232,000"
+    },
+    {
+      "Code": "E09000020",
+      "Area": "Kensington and Chelsea",
+      "White": "97,000",
+      "Asian": "12,000",
+      "Black": "18,000",
+      "Mixed/ Other": "26,000",
+      "Total": "153,000"
+    },
+    {
+      "Code": "E09000021",
+      "Area": "Kingston upon Thames",
+      "White": "124,000",
+      "Asian": "26,000",
+      "Black": "5,000",
+      "Mixed/ Other": "17,000",
+      "Total": "172,000"
+    },
+    {
+      "Code": "E09000022",
+      "Area": "Lambeth",
+      "White": "217,000",
+      "Asian": "12,000",
+      "Black": "65,000",
+      "Mixed/ Other": "27,000",
+      "Total": "321,000"
+    },
+    {
+      "Code": "E09000023",
+      "Area": "Lewisham",
+      "White": "189,000",
+      "Asian": "25,000",
+      "Black": "63,000",
+      "Mixed/ Other": "23,000",
+      "Total": "300,000"
+    },
+    {
+      "Code": "E09000024",
+      "Area": "Merton",
+      "White": "132,000",
+      "Asian": "38,000",
+      "Black": "16,000",
+      "Mixed/ Other": "19,000",
+      "Total": "204,000"
+    },
+    {
+      "Code": "E09000025",
+      "Area": "Newham",
+      "White": "110,000",
+      "Asian": "144,000",
+      "Black": "57,000",
+      "Mixed/ Other": "35,000",
+      "Total": "346,000"
+    },
+    {
+      "Code": "E09000026",
+      "Area": "Redbridge",
+      "White": "113,000",
+      "Asian": "145,000",
+      "Black": "23,000",
+      "Mixed/ Other": "19,000",
+      "Total": "300,000"
+    },
+    {
+      "Code": "E09000027",
+      "Area": "Richmond upon Thames",
+      "White": "162,000",
+      "Asian": "12,000",
+      "Black": "4,000",
+      "Mixed/ Other": "15,000",
+      "Total": "194,000"
+    },
+    {
+      "Code": "E09000028",
+      "Area": "Southwark",
+      "White": "179,000",
+      "Asian": "28,000",
+      "Black": "70,000",
+      "Mixed/ Other": "33,000",
+      "Total": "310,000"
+    },
+    {
+      "Code": "E09000029",
+      "Area": "Sutton",
+      "White": "139,000",
+      "Asian": "35,000",
+      "Black": "12,000",
+      "Mixed/ Other": "16,000",
+      "Total": "201,000"
+    },
+    {
+      "Code": "E09000030",
+      "Area": "Tower Hamlets",
+      "White": "125,000",
+      "Asian": "148,000",
+      "Black": "14,000",
+      "Mixed/ Other": "19,000",
+      "Total": "307,000"
+    },
+    {
+      "Code": "E09000031",
+      "Area": "Waltham Forest",
+      "White": "153,000",
+      "Asian": "41,000",
+      "Black": "44,000",
+      "Mixed/ Other": "36,000",
+      "Total": "274,000"
+    },
+    {
+      "Code": "E09000032",
+      "Area": "Wandsworth",
+      "White": "227,000",
+      "Asian": "37,000",
+      "Black": "19,000",
+      "Mixed/ Other": "33,000",
+      "Total": "316,000"
+    },
+    {
+      "Code": "E09000033",
+      "Area": "Westminster",
+      "White": "131,000",
+      "Asian": "34,000",
+      "Black": "19,000",
+      "Mixed/ Other": "50,000",
+      "Total": "234,000"
+    }
+  ],
+  "2018": [
+    {
+      "Code ": "E09000001",
+      "Area": "City of London",
+      "White": "-",
+      "Asian": "-",
+      "Black": "-",
+      "Mixed/ Other": "-",
+      "Total": "9,000"
+    },
+    {
+      "Code ": "E09000002",
+      "Area": "Barking and Dagenham",
+      "White": "109,000",
+      "Asian": "54,000",
+      "Black": "36,000",
+      "Mixed/ Other": "15,000",
+      "Total": "215,000"
+    },
+    {
+      "Code ": "E09000003",
+      "Area": "Barnet",
+      "White": "250,000",
+      "Asian": "57,000",
+      "Black": "30,000",
+      "Mixed/ Other": "54,000",
+      "Total": "390,000"
+    },
+    {
+      "Code ": "E09000004",
+      "Area": "Bexley",
+      "White": "195,000",
+      "Asian": "17,000",
+      "Black": "21,000",
+      "Mixed/ Other": "15,000",
+      "Total": "248,000"
+    },
+    {
+      "Code ": "E09000005",
+      "Area": "Brent",
+      "White": "102,000",
+      "Asian": "107,000",
+      "Black": "62,000",
+      "Mixed/ Other": "56,000",
+      "Total": "328,000"
+    },
+    {
+      "Code ": "E09000006",
+      "Area": "Bromley",
+      "White": "267,000",
+      "Asian": "15,000",
+      "Black": "21,000",
+      "Mixed/ Other": "28,000",
+      "Total": "330,000"
+    },
+    {
+      "Code ": "E09000007",
+      "Area": "Camden",
+      "White": "158,000",
+      "Asian": "39,000",
+      "Black": "19,000",
+      "Mixed/ Other": "38,000",
+      "Total": "255,000"
+    },
+    {
+      "Code ": "E09000008",
+      "Area": "Croydon",
+      "White": "227,000",
+      "Asian": "70,000",
+      "Black": "64,000",
+      "Mixed/ Other": "24,000",
+      "Total": "386,000"
+    },
+    {
+      "Code ": "E09000009",
+      "Area": "Ealing",
+      "White": "174,000",
+      "Asian": "96,000",
+      "Black": "23,000",
+      "Mixed/ Other": "50,000",
+      "Total": "343,000"
+    },
+    {
+      "Code ": "E09000010",
+      "Area": "Enfield",
+      "White": "206,000",
+      "Asian": "37,000",
+      "Black": "74,000",
+      "Mixed/ Other": "20,000",
+      "Total": "337,000"
+    },
+    {
+      "Code ": "E09000011",
+      "Area": "Greenwich",
+      "White": "178,000",
+      "Asian": "39,000",
+      "Black": "48,000",
+      "Mixed/ Other": "19,000",
+      "Total": "284,000"
+    },
+    {
+      "Code ": "E09000012",
+      "Area": "Hackney",
+      "White": "144,000",
+      "Asian": "32,000",
+      "Black": "63,000",
+      "Mixed/ Other": "42,000",
+      "Total": "281,000"
+    },
+    {
+      "Code ": "E09000013",
+      "Area": "Hammersmith and Fulham",
+      "White": "119,000",
+      "Asian": "20,000",
+      "Black": "23,000",
+      "Mixed/ Other": "19,000",
+      "Total": "180,000"
+    },
+    {
+      "Code ": "E09000014",
+      "Area": "Haringey",
+      "White": "180,000",
+      "Asian": "18,000",
+      "Black": "34,000",
+      "Mixed/ Other": "44,000",
+      "Total": "276,000"
+    },
+    {
+      "Code ": "E09000015",
+      "Area": "Harrow",
+      "White": "110,000",
+      "Asian": "98,000",
+      "Black": "13,000",
+      "Mixed/ Other": "28,000",
+      "Total": "249,000"
+    },
+    {
+      "Code ": "E09000016",
+      "Area": "Havering",
+      "White": "216,000",
+      "Asian": "13,000",
+      "Black": "14,000",
+      "Mixed/ Other": "15,000",
+      "Total": "258,000"
+    },
+    {
+      "Code ": "E09000017",
+      "Area": "Hillingdon",
+      "White": "154,000",
+      "Asian": "100,000",
+      "Black": "24,000",
+      "Mixed/ Other": "28,000",
+      "Total": "305,000"
+    },
+    {
+      "Code ": "E09000018",
+      "Area": "Hounslow",
+      "White": "130,000",
+      "Asian": "86,000",
+      "Black": "25,000",
+      "Mixed/ Other": "29,000",
+      "Total": "269,000"
+    },
+    {
+      "Code ": "E09000019",
+      "Area": "Islington",
+      "White": "165,000",
+      "Asian": "17,000",
+      "Black": "25,000",
+      "Mixed/ Other": "28,000",
+      "Total": "235,000"
+    },
+    {
+      "Code ": "E09000020",
+      "Area": "Kensington and Chelsea",
+      "White": "100,000",
+      "Asian": "18,000",
+      "Black": "15,000",
+      "Mixed/ Other": "22,000",
+      "Total": "154,000"
+    },
+    {
+      "Code ": "E09000021",
+      "Area": "Kingston upon Thames",
+      "White": "123,000",
+      "Asian": "30,000",
+      "Black": "3,000",
+      "Mixed/ Other": "21,000",
+      "Total": "177,000"
+    },
+    {
+      "Code ": "E09000022",
+      "Area": "Lambeth",
+      "White": "172,000",
+      "Asian": "28,000",
+      "Black": "76,000",
+      "Mixed/ Other": "49,000",
+      "Total": "324,000"
+    },
+    {
+      "Code ": "E09000023",
+      "Area": "Lewisham",
+      "White": "193,000",
+      "Asian": "23,000",
+      "Black": "58,000",
+      "Mixed/ Other": "30,000",
+      "Total": "305,000"
+    },
+    {
+      "Code ": "E09000024",
+      "Area": "Merton",
+      "White": "135,000",
+      "Asian": "35,000",
+      "Black": "16,000",
+      "Mixed/ Other": "21,000",
+      "Total": "207,000"
+    },
+    {
+      "Code ": "E09000025",
+      "Area": "Newham",
+      "White": "111,000",
+      "Asian": "166,000",
+      "Black": "47,000",
+      "Mixed/ Other": "27,000",
+      "Total": "351,000"
+    },
+    {
+      "Code ": "E09000026",
+      "Area": "Redbridge",
+      "White": "143,000",
+      "Asian": "126,000",
+      "Black": "20,000",
+      "Mixed/ Other": "18,000",
+      "Total": "307,000"
+    },
+    {
+      "Code ": "E09000027",
+      "Area": "Richmond upon Thames",
+      "White": "170,000",
+      "Asian": "11,000",
+      "Black": "-",
+      "Mixed/ Other": "14,000",
+      "Total": "196,000"
+    },
+    {
+      "Code ": "E09000028",
+      "Area": "Southwark",
+      "White": "200,000",
+      "Asian": "17,000",
+      "Black": "64,000",
+      "Mixed/ Other": "35,000",
+      "Total": "315,000"
+    },
+    {
+      "Code ": "E09000029",
+      "Area": "Sutton",
+      "White": "147,000",
+      "Asian": "36,000",
+      "Black": "11,000",
+      "Mixed/ Other": "10,000",
+      "Total": "204,000"
+    },
+    {
+      "Code ": "E09000030",
+      "Area": "Tower Hamlets",
+      "White": "145,000",
+      "Asian": "128,000",
+      "Black": "22,000",
+      "Mixed/ Other": "19,000",
+      "Total": "314,000"
+    },
+    {
+      "Code ": "E09000031",
+      "Area": "Waltham Forest",
+      "White": "142,000",
+      "Asian": "44,000",
+      "Black": "43,000",
+      "Mixed/ Other": "48,000",
+      "Total": "277,000"
+    },
+    {
+      "Code ": "E09000032",
+      "Area": "Wandsworth",
+      "White": "242,000",
+      "Asian": "19,000",
+      "Black": "39,000",
+      "Mixed/ Other": "23,000",
+      "Total": "323,000"
+    },
+    {
+      "Code ": "E09000033",
+      "Area": "Westminster",
+      "White": "140,000",
+      "Asian": "33,000",
+      "Black": "17,000",
+      "Mixed/ Other": "51,000",
+      "Total": "241,000"
+    }
+  ]
+}

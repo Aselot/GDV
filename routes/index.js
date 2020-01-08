@@ -29,4 +29,9 @@ router.get('/data/londonBoroughs.json', function(req,res){
     res.end(JSON.stringify(jsonData));
 });
 
+router.get('/xslx', function (req,res) {
+    res.render("../views/xslx.html");
+});
+
+
 module.exports = router;
