@@ -196,16 +196,35 @@
                         "feature": "boroughs"
                     }
                 },
+                "title": {
+                    "text": "Londons earnings",
+                    "fontSize": 50,
+                    "font": "Times New Roman"
+                },
+
                 "mark": {
                     "type": "geoshape",
                     "stroke": "white",
-                    "strokeWidth": 2
+                    "strokeWidth": 2,
+                    "encoding": {
+                        "color": {
+                            "field": "annual income",
+                            "type": "quantitative",
+                            "scale": {"scheme": "Oranges"},
+                            "legend": {
+                                "title": null,
+                                "format": "%"
+                            }
+                        }
+                    }
                 },
                 "encoding": {
-                    "color": {
-                        "value": "#eee"
-                    }
-                }
+                    "tooltip": [{
+                        "field": "id",
+                        "type": "nominal",
+                        "title": "Borough"
+                    }]
+                },
             }]
 
 
