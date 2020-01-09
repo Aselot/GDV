@@ -58,138 +58,157 @@
     var yourVlSpec =
         {
             "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+
             "description": "duh",
             "width": 500, "height": 300,
 
-            "data": {
-                "url": "data/ethnicGroups.json"
-            },
-
             vconcat: [{
-
-                "selection": {
-                    "picked": {
-                        "type": "single",
-                        "fields": ["Year"],
-                        "bind": {
-                            "Year": {"input": "range", "min": 2012, "max": 2018, "step": 1},
+                "repeat": {
+                    "column": ["Black", "Asian", "White", "Mixed/ Other"],
+                    "row": ["Male FT weekly", "Female FT weekly"]
+                },
+                "spec": {
+                    "data": {
+                        "url": "data/ethnicGroups.json"
+                    },
+                    "transform": [{"calculate": "year(datum.Year)", "as": "Year"},
+                        {
+                            "lookup": "Area",
+                            "from": {
+                                "data": {
+                                    "url": "data/us-10m.json",
+                                    "format": {
+                                        "type": "topojson",
+                                        "feature": "boroughs"
+                                    }
+                                },
+                                "key": "id"
+                            },
+                            "as": "geo"
                         }
+
+                    ],
+                    "mark":
+                        "point",
+                    "selection":
+                        {
+                            "Year":
+                                {
+                                    "type":
+                                        "single",
+                                    "fields":
+                                        ["Year"],
+                                    "bind":
+                                        {
+                                            "Year":
+                                                {
+                                                    "input":
+                                                        "range", "min":
+                                                        2012, "max":
+                                                        2018, "step":
+                                                        1
+                                                }
+                                        }
+                                }
+                            ,
+                            "brush":
+                                {
+                                    "type":
+                                        "interval",
+                                    "resolve":
+                                        "union",
+                                    "on":
+                                        "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
+                                    "translate":
+                                        "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
+                                    "zoom":
+                                        "wheel![event.shiftKey]"
+                                }
+                            ,
+                            "grid":
+                                {
+                                    "type":
+                                        "interval",
+                                    "resolve":
+                                        "global",
+                                    "bind":
+                                        "scales",
+                                    "translate":
+                                        "[mousedown[!event.shiftKey], window:mouseup] > window:mousemove!",
+                                    "zoom":
+                                        "wheel![!event.shiftKey]"
+                                }
+                        }
+                    ,
+                    "encoding":
+                        {
+                            "x":
+                                {
+                                    "field":
+                                        {
+                                            "repeat":
+                                                "column"
+                                        }
+                                    ,
+                                    "type":
+                                        "quantitative"
+                                }
+                            ,
+                            "y":
+                                {
+                                    "field":
+                                        {
+                                            "repeat":
+                                                "row"
+                                        }
+                                    ,
+                                    "type":
+                                        "quantitative",
+                                    "axis":
+                                        {
+                                            "minExtent":
+                                                40
+                                        }
+                                }
+                            ,
+                            "color":
+                                {
+                                    "condition":
+                                        {
+                                            "selection":
+                                                "Year",
+                                            "field":
+                                                "Area", "type":
+                                                "nominal"
+                                        }
+                                    ,
+
+                                    "value":
+                                        ""
+                                }
+                        }
+                }
+            }, {
+                "data": {
+                    "url": "data/londonBoroughs.json",
+                    "format": {
+                        "type": "topojson",
+                        "feature": "boroughs"
                     }
                 },
-                "mark": "circle",
+                "mark": {
+                    "type": "geoshape",
+                    "stroke": "white",
+                    "strokeWidth": 2
+                },
                 "encoding": {
-                    "y": {
-                        "field": "All FT weekly",
-                        "type": "quantitative",
-                        "scale": {"zero": true},
-                        "axis": {"minExtent": 30}
-                    },
-                    "x": {
-                        "field": "White",
-                        "type": "quantitative",
-                        "scale": {"type": "log"}
-                    },
-                    "color": {"field": "Area", "type": "nominal"}
-                },
-                "size": {
-                    "condition": {"selection": "CylYr", "value": 100},
-                    "value": 50
+                    "color": {
+                        "value": "#eee"
+                    }
                 }
-            },
-                {
-                    "selection": {
-                        "picked": {
-                            "type": "single",
-                            "fields": ["Year"],
-                            "bind": {
-                                "Year": {"input": "range", "min": 2012, "max": 2018, "step": 1},
-                            }
-                        }
-                    },
-                    "mark": "circle",
-                    "encoding": {
-                        "y": {
-                            "field": "All FT weekly",
-                            "type": "quantitative",
-                            "scale": {"zero": true},
-                            "axis": {"minExtent": 30}
-                        },
-                        "x": {
-                            "field": "Black",
-                            "type": "quantitative",
-                            "scale": {"type": "log"}
-                        },
-                        "color": {"field": "Area", "type": "nominal"}
-                    },
-                    "size": {
-                        "condition": {"selection": "CylYr", "value": 100},
-                        "value": 50
-                    }
+            }]
 
-                },
-                {
 
-                    "selection": {
-                        "picked": {
-                            "type": "single",
-                            "fields": ["Year"],
-                            "bind": {
-                                "Year": {"input": "range", "min": 2012, "max": 2018, "step": 1},
-                            }
-                        }
-                    },
-                    "mark": "circle",
-                    "encoding": {
-                        "y": {
-                            "field": "All FT weekly",
-                            "type": "quantitative",
-                            "scale": {"zero": true},
-                            "axis": {"minExtent": 30}
-                        },
-                        "x": {
-                            "field": "Asian",
-                            "type": "quantitative",
-                            "scale": {"type": "log"}
-                        },
-                        "color": {"field": "Area", "type": "nominal"}
-                    },
-                    "size": {
-                        "condition": {"selection": "CylYr", "value": 100},
-                        "value": 50
-                    }
-                },
-                {
-                    "selection": {
-                        "picked": {
-                            "type": "single",
-                            "fields": ["Year"],
-                            "bind": {
-                                "Year": {"input": "range", "min": 2012, "max": 2018, "step": 1},
-                            }
-                        }
-                    },
-                    "mark": "circle",
-                    "encoding": {
-                        "y": {
-                            "field": "All FT weekly",
-                            "type": "quantitative",
-                            "scale": {"zero": true},
-                            "axis": {"minExtent": 30}
-                        },
-                        "x": {
-                            "field": "Mixed/ Other",
-                            "type": "quantitative",
-                            "scale": {"type": "log"}
-                        },
-                        "color": {"field": "Area", "type": "nominal"}
-                    },
-                    "size": {
-                        "condition": {"selection": "CylYr", "value": 100},
-                        "value": 50
-                    }
-
-                }
-            ]
         }
 
     ;
@@ -198,3 +217,130 @@
 </script>
 </body>
 </html>
+
+
+<!--vconcat: [{-->
+
+<!--"selection": {-->
+<!--"picked": {-->
+<!--"type": "single",-->
+<!--"fields": ["Year"],-->
+<!--"bind": {-->
+<!--"Year": {"input": "range", "min": 2012, "max": 2018, "step": 1},-->
+<!--}-->
+<!--}-->
+<!--},-->
+<!--"mark": "circle",-->
+<!--"encoding": {-->
+<!--"y": {-->
+<!--"field": "All FT weekly",-->
+<!--"type": "quantitative",-->
+<!--"scale": {"zero": true},-->
+<!--"axis": {"minExtent": 30}-->
+<!--},-->
+<!--"x": {-->
+<!--"field": "White",-->
+<!--"type": "quantitative",-->
+<!--"scale": {"type": "log"}-->
+<!--},-->
+<!--"color": {"field": "Area", "type": "nominal"}-->
+<!--},-->
+<!--"size": {-->
+<!--"condition": {"selection": "CylYr", "value": 100},-->
+<!--"value": 50-->
+<!--}-->
+<!--},-->
+<!--{-->
+<!--"selection": {-->
+<!--"picked": {-->
+<!--"type": "single",-->
+<!--"fields": ["Year"],-->
+<!--"bind": {-->
+<!--"Year": {"input": "range", "min": 2012, "max": 2018, "step": 1},-->
+<!--}-->
+<!--}-->
+<!--},-->
+<!--"mark": "circle",-->
+<!--"encoding": {-->
+<!--"y": {-->
+<!--"field": "All FT weekly",-->
+<!--"type": "quantitative",-->
+<!--"scale": {"zero": true},-->
+<!--"axis": {"minExtent": 30}-->
+<!--},-->
+<!--"x": {-->
+<!--"field": "Black",-->
+<!--"type": "quantitative",-->
+<!--"scale": {"type": "log"}-->
+<!--},-->
+<!--"color": {"field": "Area", "type": "nominal"}-->
+<!--},-->
+<!--"size": {-->
+<!--"condition": {"selection": "CylYr", "value": 100},-->
+<!--"value": 50-->
+<!--}-->
+
+<!--},-->
+<!--{-->
+
+<!--"selection": {-->
+<!--"picked": {-->
+<!--"type": "single",-->
+<!--"fields": ["Year"],-->
+<!--"bind": {-->
+<!--"Year": {"input": "range", "min": 2012, "max": 2018, "step": 1},-->
+<!--}-->
+<!--}-->
+<!--},-->
+<!--"mark": "circle",-->
+<!--"encoding": {-->
+<!--"y": {-->
+<!--"field": "All FT weekly",-->
+<!--"type": "quantitative",-->
+<!--"scale": {"zero": true},-->
+<!--"axis": {"minExtent": 30}-->
+<!--},-->
+<!--"x": {-->
+<!--"field": "Asian",-->
+<!--"type": "quantitative",-->
+<!--"scale": {"type": "log"}-->
+<!--},-->
+<!--"color": {"field": "Area", "type": "nominal"}-->
+<!--},-->
+<!--"size": {-->
+<!--"condition": {"selection": "CylYr", "value": 100},-->
+<!--"value": 50-->
+<!--}-->
+<!--},-->
+<!--{-->
+<!--"selection": {-->
+<!--"picked": {-->
+<!--"type": "single",-->
+<!--"fields": ["Year"],-->
+<!--"bind": {-->
+<!--"Year": {"input": "range", "min": 2012, "max": 2018, "step": 1},-->
+<!--}-->
+<!--}-->
+<!--},-->
+<!--"mark": "circle",-->
+<!--"encoding": {-->
+<!--"y": {-->
+<!--"field": "All FT weekly",-->
+<!--"type": "quantitative",-->
+<!--"scale": {"zero": true},-->
+<!--"axis": {"minExtent": 30}-->
+<!--},-->
+<!--"x": {-->
+<!--"field": "Mixed/ Other",-->
+<!--"type": "quantitative",-->
+<!--"scale": {"type": "log"}-->
+<!--},-->
+<!--"color": {"field": "Area", "type": "nominal"}-->
+<!--},-->
+<!--"size": {-->
+<!--"condition": {"selection": "CylYr", "value": 100},-->
+<!--"value": 50-->
+<!--}-->
+
+<!--}-->
+<!--]-->
