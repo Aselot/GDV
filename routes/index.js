@@ -8,7 +8,7 @@ router.get('/lo', function(req, res, next) {
 });
 
 router.get('/', function (req,res) {
-  res.render("../views/test.html");
+  res.render("../views/test2.html");
 });
 router.get('/test', function (req,res) {
     res.render("../views/test.html");
@@ -22,8 +22,8 @@ router.get('/londonJSON',function (req,res) {
 })
 
 
-router.get('/data/londonBoroughs.json', function(req,res){
-    let rawdata = fs.readFileSync(__dirname+'/../data/londonBoroughs.json');
+router.get('/data/cars.json', function(req,res){
+    let rawdata = fs.readFileSync(__dirname+'/../data/annualEarning.json');
     let jsonData = JSON.parse(rawdata);
     res.setHeader('Content-Type', 'application/json');
     res.end(JSON.stringify(jsonData));
