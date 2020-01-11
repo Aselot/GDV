@@ -64,38 +64,38 @@
             "data": {
                 "url": "data/ethnicGroups.json"
             },
+            vconcat: [
+                {
 
-            vconcat: [{
-
-                "selection": {
-                    "picked": {
-                        "type": "single",
-                        "fields": ["Year"],
-                        "bind": {
-                            "Year": {"input": "range", "min": 2012, "max": 2018, "step": 1},
+                    "selection": {
+                        "picked": {
+                            "type": "single",
+                            "fields": ["Year"],
+                            "bind": {
+                                "Year": {"input": "range", "min": 2012, "max": 2018, "step": 1},
+                            }
                         }
+                    },
+                    "mark": "circle",
+                    "encoding": {
+                        "y": {
+                            "field": "All FT weekly",
+                            "type": "quantitative",
+                            "scale": {"zero": true},
+                            "axis": {"minExtent": 30}
+                        },
+                        "x": {
+                            "field": "White",
+                            "type": "quantitative",
+                            "scale": {"type": "log"}
+                        },
+                        "color": {"field": "Area", "type": "nominal"}
+                    },
+                    "size": {
+                        "condition": {"selection": "CylYr", "value": 100},
+                        "value": 50
                     }
                 },
-                "mark": "circle",
-                "encoding": {
-                    "y": {
-                        "field": "All FT weekly",
-                        "type": "quantitative",
-                        "scale": {"zero": true},
-                        "axis": {"minExtent": 30}
-                    },
-                    "x": {
-                        "field": "White",
-                        "type": "quantitative",
-                        "scale": {"type": "log"}
-                    },
-                    "color": {"field": "Area", "type": "nominal"}
-                },
-                "size": {
-                    "condition": {"selection": "CylYr", "value": 100},
-                    "value": 50
-                }
-            },
                 {
                     "selection": {
                         "picked": {
@@ -188,7 +188,7 @@
                         "value": 50
                     }
 
-                }
+                },
             ]
         }
 

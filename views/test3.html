@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Embedding Vega-Lite</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.9.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.2.1"></script>
+    <script src="https://public.tableau.com/javascripts/api/tableau-version.min.js"></script>
+
+</head>
+<body>
+
+<div id="vis"></div>
+
+<script>
+    var yourVlSpec =
+        {
+            "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+            "width": 1100,
+            "height": 500,
+            "data": {
+                "url": "data/londonBoroughs.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "boroughs"
+                }
+            },
+            "transform": [{
+                "lookup": "id",
+                "from": {
+                    "data": {"url": "data/ethnicGroups.json"},
+                    "key": "Area",
+                    "fields": ["FT workers annual Median","FT workers annual Mean"]
+                }
+            }],
+
+            "title": {
+                "text": "Londons earnings",
+                "fontSize": 50,
+                "font": "Times New Roman"
+            },
+
+            "mark": {
+                "type": "geoshape",
+                "stroke": "white",
+                "strokeWidth": 2,
+            },
+            "encoding": {
+                "tooltip": [{
+                    "field": "id",
+                    "type": "nominal",
+                    "title": "Borough"
+                }],
+                "color": {
+                    "field": "FT workers annual Mean",
+                    "type": "nominal",
+                    "scale": {"scheme": "Blues"},
+                }
+            },
+        }
+
+    ;
+    vegaEmbed('#vis', yourVlSpec);
+
+</script>
+</body>
+</html>
