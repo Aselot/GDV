@@ -65,22 +65,7 @@
             "view": {
                 "stroke": 0,
             },
-            "data": {
-                "url": "https://api.jsonbin.io/b/5e1b36c4b236b871b3608757",
-                "format": {
-                    "type": "topojson",
-                    "feature": "boroughs"
-                }
-            },
-            "transform": [{
-                "lookup": "id",
-                "from": {
-                    "data": {"url": "data/ethnicGroups.json"},
-                    "key": "Area",
-                    "fields": ["Year", "FT workers annual Median", "FT workers annual Mean", "Male FT weekly", "Female FT weekly", "All FT weekly", "all workers"]
-                },
 
-            }],
 
             "selection": {
                 "Years": {
@@ -92,140 +77,121 @@
                 }
             },
 
-            "concat": [{
-                "layer": [{
-
-                    "width": 600,
-                    "height": 500,
+            "concat": [
+                {
                     "mark": {
                         "type": "geoshape",
                         "stroke": "black",
                         "strokeWidth": 1,
                     },
-
+                    "selection": {
+                        "tooltipOnHover": {
+                            "type": "single",
+                            "on": "mouseover "
+                        },
+                        "darken": {
+                            "type": "single",
+                            "empty": "none"
+                        }
+                    },
                     "encoding": {
-
+                        "tooltip": [{
+                            "field": "id",
+                            "type": "nominal",
+                            "title": "Borough",
+                        }],
                         "color": {
-
-                            "selection": "Years",
-                            "field": "All FT weekly",
+                            "field": "Male FT weekly",
                             "type": "quantitative",
+
+                            "condition": {
+                                "selection": "darken",
+                                
+                            },
                             "scale": {"scheme": "browns"},
                             "legend": {
-                                "direction": "horizontal",
                                 "labelColor": "#f0e6c9",
                                 "labelFontSize": 15,
                                 "labelFont": "Helvetica",
                                 "labelOffset": 15,
                                 "titleColor": "#f0e6c9",
-                                "titleFontSize": 13,
+                                "titleFontSize": 18,
                                 "titleFont": "Helvetica",
                                 "titlePadding": 15,
+                                "offset": -30,
                                 "gradientThickness": 13,
-                                "gradientLength": 200,
+                                "gradientLength": 300,
                                 "title": "Ø Weekly income in pounds",
                             },
                         }
                     },
-
-
-                }, {
                     "data": {
-                        "url": "https://api.jsonbin.io/b/5e1b36a2b236b871b360874a",
+                        "url": "https://api.jsonbin.io/b/5e1b36c4b236b871b3608757",
                         "format": {
-                            "type": "json"
+                            "type": "topojson",
+                            "feature": "boroughs"
                         }
                     },
-                    "selection": {
-                        "pts": {
-                            "type": "single",
-                            "fields": ["name"],
-                            "nearest": "true"
+                    "transform": [{
+                        "lookup": "id",
+                        "from": {
+                            "data": {"url": "data/ethnicGroups.json"},
+                            "key": "Area",
+                            "fields": ["FT workers annual Median", "FT workers annual Mean", "Male FT weekly", "Female FT weekly", "All FT weekly", "all workers"]
+                        }
+                    }],
+                },
+
+
+                {
+                    "data": {
+                        "url": "https://api.jsonbin.io/b/5e1b365bb236b871b3608727",
+                    },
+
+                    "repeat": {
+                        "row": ["Black", "White", "Asian", "Mixed/ Other"],
+                        "column": ["All FT weekly"],
+                    },
+                    "columns": 2,
+                    "spec": {
+                        "mark": "circle",
+                        "encoding": {
+
+                            "x": {
+                                "field": {repeat: "row"}, "type": "quantitative", "axis": {
+                                    "axisColor": "#f0e6c9",
+                                    "domainColor": "#f0e6c9",
+                                    "labelColor": "#f0e6c9",
+                                    "titleColor": "#f0e6c9",
+                                },
+                                "scale": {"domain": [0, 300000]}
+
+                            },
+                            "y": {
+                                "field": {repeat: "column"}, "type": "quantitative",
+                                "axis": {
+                                    "axisColor": "#f0e6c9",
+                                    "domainColor": "#f0e6c9",
+                                    "labelColor": "#f0e6c9",
+                                    "titleColor": "#f0e6c9",
+                                    "title": "Ø Weekly income in pounds"
+
+                                },
+                            },
+
+                            "color": {
+                                "field": "All FT weekly",
+                                "type": "quantitative",
+                                "scale": {"scheme": "White"},
+
+                            },
+
+                            "shape": {"field": "Year", "type": "temporal"},
+
                         }
                     },
-                    "transform": [
-                        {
-                            "calculate": "indexof (datum.name,' ') > 0  ? substring(datum.name,0,indexof(datum.name, ' ')) : datum.name",
-                            "as": "bLabel"
-                        }
-                    ],
-                    "mark": "text",
-                    "encoding": {
-                        "longitude": {
-                            "field": "cx",
-                            "type": "quantitative"
-                        },
-                        "latitude": {
-                            "field": "cy",
-                            "type": "quantitative"
-                        },
-                        "text": {
-                            "field": "bLabel",
-                            "type": "nominal"
-                        },
-                        "size": {
-                            "value": 12
-                        },
-                        "opacity": {
-                            "value": 0.6
-                        },
-                        "tooltip": [{
-                            "field": "name",
-                            "type": "nominal",
-                            "title": "Borough",
-                        }],
 
-                    }
-                },]
-            }, {
-                "data": {
-                    "url": "https://api.jsonbin.io/b/5e1b365bb236b871b3608727",
-                },
-
-                "repeat": {
-                    "row": ["Black", "White", "Asian", "Mixed/ Other"],
-                    "column": ["All FT weekly"],
-                },
-                "columns": 2,
-                "spec": {
-                    "mark": "circle",
-                    "encoding": {
-
-                        "x": {
-                            "field": {repeat: "row"}, "type": "quantitative", "axis": {
-                                "axisColor": "#f0e6c9",
-                                "domainColor": "#f0e6c9",
-                                "labelColor": "#f0e6c9",
-                                "titleColor": "#f0e6c9",
-                            },
-                            "scale": {"domain": [0, 300000]}
-
-                        },
-                        "y": {
-                            "field": {repeat: "column"}, "type": "quantitative",
-                            "axis": {
-                                "axisColor": "#f0e6c9",
-                                "domainColor": "#f0e6c9",
-                                "labelColor": "#f0e6c9",
-                                "titleColor": "#f0e6c9",
-                                "title": "Ø Weekly income in pounds"
-
-                            },
-                        },
-
-                        "color": {
-                            "field": "All FT weekly",
-                            "type": "quantitative",
-                            "scale": {"scheme": "White"},
-
-                        },
-
-                        "shape": {"field": "Year", "type": "temporal"},
-
-                    }
-                },
-
-            }]
+                }]
         }
 
 
