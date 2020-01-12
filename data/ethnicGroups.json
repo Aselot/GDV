@@ -102,23 +102,6 @@
     "FT workers annual low quartile": 27004
   },
   {
-    "Code": "E09000001",
-    "Area": "City of London",
-    "Year": "2012-01-01",
-    "White": 0,
-    "Asian": 0,
-    "Black": 0,
-    "Mixed/ Other": 0,
-    "Total": 0,
-    "Male FT weekly": 1041.20,
-    "Female FT weekly": 751.8,
-    "All FT weekly": 919.7,
-    "all workers": 869.8,
-    "FT workers annual Median": 54000,
-    "FT workers annual Mean": 86987,
-    "FT workers annual low quartile": 36659
-  },
-  {
     "Code": "E09000008",
     "Area": "Croydon",
     "Year": "2012-01-01",
@@ -661,23 +644,6 @@
     "FT workers annual Median": 36336,
     "FT workers annual Mean": 45539,
     "FT workers annual low quartile": 26544
-  },
-  {
-    "Code": "E09000001",
-    "Area": "City of London",
-    "Year": "2013-01-01",
-    "White": 0,
-    "Asian": 0,
-    "Black": 0,
-    "Mixed/ Other": 0,
-    "Total": 0,
-    "Male FT weekly": 1064.90,
-    "Female FT weekly": 747.4,
-    "All FT weekly": 945.2,
-    "all workers": 899,
-    "FT workers annual Median": 54202,
-    "FT workers annual Mean": 83403,
-    "FT workers annual low quartile": 35503
   },
   {
     "Code": "E09000008",
@@ -1224,23 +1190,6 @@
     "FT workers annual low quartile": 26548
   },
   {
-    "Code": "E09000001",
-    "Area": "City of London",
-    "Year": "2014-01-01",
-    "White": 0,
-    "Asian": 0,
-    "Black": 0,
-    "Mixed/ Other": 0,
-    "Total": 0,
-    "Male FT weekly": 1082.30,
-    "Female FT weekly": 749.4,
-    "All FT weekly": 928,
-    "all workers": 877.2,
-    "FT workers annual Median": 54710,
-    "FT workers annual Mean": 82808,
-    "FT workers annual low quartile": 35816
-  },
-  {
     "Code": "E09000008",
     "Area": "Croydon",
     "Year": "2014-01-01",
@@ -1783,23 +1732,6 @@
     "FT workers annual Median": 36970,
     "FT workers annual Mean": 45489,
     "FT workers annual low quartile": 27015
-  },
-  {
-    "Code": "E09000001",
-    "Area": "City of London",
-    "Year": "2015-01-01",
-    "White": 0,
-    "Asian": 0,
-    "Black": 0,
-    "Mixed/ Other": 0,
-    "Total": 8000,
-    "Male FT weekly": 1054.20,
-    "Female FT weekly": 766.6,
-    "All FT weekly": 926.2,
-    "all workers": 879.3,
-    "FT workers annual Median": 54034,
-    "FT workers annual Mean": 77754,
-    "FT workers annual low quartile": 35860
   },
   {
     "Code": "E09000008",
@@ -2346,23 +2278,6 @@
     "FT workers annual low quartile": 27580
   },
   {
-    "Code": "E09000001",
-    "Area": "City of London",
-    "Year": "2016-01-01",
-    "White": 0,
-    "Asian": 0,
-    "Black": 0,
-    "Mixed/ Other": 0,
-    "Total": 0,
-    "Male FT weekly": 1108.30,
-    "Female FT weekly": 796.8,
-    "All FT weekly": 958.2,
-    "all workers": 908.6,
-    "FT workers annual Median": 55487,
-    "FT workers annual Mean": 79489,
-    "FT workers annual low quartile": 35999
-  },
-  {
     "Code": "E09000008",
     "Area": "Croydon",
     "Year": "2016-01-01",
@@ -2907,23 +2822,6 @@
     "FT workers annual low quartile": 28420
   },
   {
-    "Code": "E09000001",
-    "Area": "City of London",
-    "Year": "2017-01-01",
-    "White": 10000,
-    "Asian": 0,
-    "Black": 0,
-    "Mixed/ Other": 0,
-    "Total": 14000,
-    "Male FT weekly": 1149.90,
-    "Female FT weekly": 799.6,
-    "All FT weekly": 989.2,
-    "all workers": 938.3,
-    "FT workers annual Median": 56295,
-    "FT workers annual Mean": 80655,
-    "FT workers annual low quartile": 37404
-  },
-  {
     "Code": "E09000008",
     "Area": "Croydon",
     "Year": "2017-01-01",
@@ -3466,23 +3364,6 @@
     "FT workers annual Median": 39198,
     "FT workers annual Mean": 46502,
     "FT workers annual low quartile": 29015
-  },
-  {
-    "Code": "E09000001",
-    "Area": "City of London",
-    "Year": "2018-01-01",
-    "White": 0,
-    "Asian": 0,
-    "Black": 0,
-    "Mixed/ Other": 0,
-    "Total": 9000,
-    "Male FT weekly": 1218.40,
-    "Female FT weekly": 838.3,
-    "All FT weekly": 1054.10,
-    "all workers": 984.8,
-    "FT workers annual Median": 61203,
-    "FT workers annual Mean": 90028,
-    "FT workers annual low quartile": 39021
   },
   {
     "Code": "E09000008",

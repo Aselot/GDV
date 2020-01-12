@@ -33,6 +33,14 @@ router.get('/data/cars.json', function(req,res){
     res.end(JSON.stringify(jsonData));
 });
 
+router.get('/data/londonCentroids.json', function(req,res){
+    let rawdata = fs.readFileSync(__dirname+'/../data/londonCentroids.json');
+    let jsonData = JSON.parse(rawdata);
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify(jsonData));
+});
+
+
 router.get('/data/londonBoroughs.json', function(req,res){
     let rawdata = fs.readFileSync(__dirname+'/../data/londonBoroughs.json');
     let jsonData = JSON.parse(rawdata);
@@ -47,6 +55,12 @@ router.get('/data/annualEarning.json', function(req,res){
 });
 router.get('/data/ethnicGroups.json', function(req,res){
     let rawdata = fs.readFileSync(__dirname+'/../data/ethnicGroups.json');
+    let jsonData = JSON.parse(rawdata);
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify(jsonData));
+});
+router.get('/data/ethnicGroups2018.json', function(req,res){
+    let rawdata = fs.readFileSync(__dirname+'/../data/data.json');
     let jsonData = JSON.parse(rawdata);
     res.setHeader('Content-Type', 'application/json');
     res.end(JSON.stringify(jsonData));
