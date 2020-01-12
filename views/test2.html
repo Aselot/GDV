@@ -58,176 +58,158 @@
     var yourVlSpec =
         {
             "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-
-            "description": "duh",
-            "width": 500, "height": 300,
-
-            vconcat: [{
-                "repeat": {
-                    "column": ["Black", "Asian", "White", "Mixed/ Other"],
-                    "row": ["Male FT weekly", "Female FT weekly"]
-                },
-                "spec": {
-                    "data": {
-                        "url": "data/ethnicGroups.json"
-                    },
-                    "transform": [{"calculate": "year(datum.Year)", "as": "Year"},
-                        {
-                            "lookup": "Area",
-                            "from": {
-                                "data": {
-                                    "url": "data/us-10m.json",
-                                    "format": {
-                                        "type": "topojson",
-                                        "feature": "boroughs"
-                                    }
-                                },
-                                "key": "id"
-                            },
-                            "as": "geo"
-                        }
-
-                    ],
-                    "mark":
-                        "point",
-                    "selection":
-                        {
-                            "Year":
-                                {
-                                    "type":
-                                        "single",
-                                    "fields":
-                                        ["Year"],
-                                    "bind":
-                                        {
-                                            "Year":
-                                                {
-                                                    "input":
-                                                        "range", "min":
-                                                        2012, "max":
-                                                        2018, "step":
-                                                        1
-                                                }
-                                        }
-                                }
-                            ,
-                            "brush":
-                                {
-                                    "type":
-                                        "interval",
-                                    "resolve":
-                                        "union",
-                                    "on":
-                                        "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
-                                    "translate":
-                                        "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
-                                    "zoom":
-                                        "wheel![event.shiftKey]"
-                                }
-                            ,
-                            "grid":
-                                {
-                                    "type":
-                                        "interval",
-                                    "resolve":
-                                        "global",
-                                    "bind":
-                                        "scales",
-                                    "translate":
-                                        "[mousedown[!event.shiftKey], window:mouseup] > window:mousemove!",
-                                    "zoom":
-                                        "wheel![!event.shiftKey]"
-                                }
-                        }
-                    ,
-                    "encoding":
-                        {
-                            "x":
-                                {
-                                    "field":
-                                        {
-                                            "repeat":
-                                                "column"
-                                        }
-                                    ,
-                                    "type":
-                                        "quantitative"
-                                }
-                            ,
-                            "y":
-                                {
-                                    "field":
-                                        {
-                                            "repeat":
-                                                "row"
-                                        }
-                                    ,
-                                    "type":
-                                        "quantitative",
-                                    "axis":
-                                        {
-                                            "minExtent":
-                                                40
-                                        }
-                                }
-                            ,
-                            "color":
-                                {
-                                    "condition":
-                                        {
-                                            "selection":
-                                                "Year",
-                                            "field":
-                                                "Area", "type":
-                                                "nominal"
-                                        }
-                                    ,
-
-                                    "value":
-                                        ""
-                                }
-                        }
+            "width": 2200,
+            "height": 1000,
+            "background": "#0f0e1c",
+            "view": {
+                "stroke": "#000000"
+            },
+            "data": {
+                "url": "https://api.jsonbin.io/b/5e1b36c4b236b871b3608757",
+                "format": {
+                    "type": "topojson",
+                    "feature": "boroughs"
                 }
-            }, {
-                "data": {
-                    "url": "data/londonBoroughs.json",
-                    "format": {
-                        "type": "topojson",
-                        "feature": "boroughs"
+            },
+            "transform": [
+                {
+                    "lookup": "id",
+                    "from": {
+                        "data": {
+                            "url": "https://api.jsonbin.io/b/5e1b35dd5df640720834126c"
+                        },
+                        "key": "Area",
+                        "fields": [
+                            "FT workers annual Median",
+                            "FT workers annual Mean",
+                            "Male FT weekly",
+                            "Female FT weekly",
+                            "All FT weekly",
+                            "all workers",
+                            "Year",
+                            "White",
+                            "Asian",
+                            "Black",
+                            "Mixed/ Other",
+                            "Area"
+                        ]
                     }
-                },
-                "title": {
-                    "text": "Londons earnings",
-                    "fontSize": 50,
-                    "font": "Times New Roman"
-                },
+                }
+            ],
 
-                "mark": {
-                    "type": "geoshape",
-                    "stroke": "white",
-                    "strokeWidth": 2,
+            "concat": [
+                {
+                    "width": 600,
+                    "height": 500,
+                    "mark": {
+                        "type": "geoshape",
+                        "stroke": "black",
+                        "strokeWidth": 1
+                    },
+                    "selection": {
+                        "selectArea": {
+                            "type": "single",
+                            "on": "mouseover"
+                        }
+                    },
                     "encoding": {
                         "color": {
-                            "field": "annual income",
+                            "field": "All FT weekly",
                             "type": "quantitative",
-                            "scale": {"scheme": "Oranges"},
+                            "scale": {
+                                "scheme": "browns"
+                            },
                             "legend": {
-                                "title": null,
-                                "format": "%"
+                                "direction": "horizontal",
+                                "labelColor": "#f0e6c9",
+                                "labelFontSize": 15,
+                                "labelFont": "Helvetica",
+                                "labelOffset": 15,
+                                "titleColor": "#f0e6c9",
+                                "titleFontSize": 13,
+                                "titleFont": "Helvetica",
+                                "titlePadding": 15,
+                                "gradientThickness": 13,
+                                "gradientLength": 200,
+                                "title": "Ø Weekly income in pounds"
+                            }
+                        },
+                        "tooltip": {
+                            "field": "id",
+                            "type": "nominal"
+                        }
+                    }
+                },
+                {
+                    "repeat": {
+                        "row": [
+                            "Black",
+                            "White",
+                            "Asian",
+                            "Mixed/ Other"
+                        ]
+                    },
+                    "spec": {
+                        "mark": {"type": "circle"},
+                        "selection": {
+                            "paintbrush": {
+                                "type": "single",
+                                "on": "mouseover",
+                                "nearest": true
+                            }
+                        },
+                        "encoding": {
+                            "x": {
+                                "field": {
+                                    "repeat": "row"
+                                },
+                                "type": "quantitative",
+                                "axis": {
+                                    "axisColor": "#f0e6c9",
+                                    "domainColor": "#f0e6c9",
+                                    "labelColor": "#f0e6c9",
+                                    "titleColor": "#f0e6c9"
+                                },
+                                "scale": {
+                                    "domain": [
+                                        0,
+                                        300000
+                                    ]
+                                }
+                            },
+                            "y": {
+                                "field": "All FT weekly",
+                                "type": "quantitative",
+                                "axis": {
+                                    "axisColor": "#f0e6c9",
+                                    "domainColor": "#f0e6c9",
+                                    "labelColor": "#f0e6c9",
+                                    "titleColor": "#f0e6c9",
+                                    "title": "Ø Weekly income in pounds"
+                                }
+                            },
+
+                            "color": {
+                                "field": "All FT weekly",
+                                "type": "quantitative",
+                                "scale": {
+                                    "scheme": "White"
+                                }
+                            },
+
+                            "tooltip": {"field": "id", "type": "nominal"},
+
+                            "size": {
+                                "condition": {
+                                    "selection": {"or": ["paintbrush", "selectArea"]},
+                                    "value": 300
+                                },
+                                "value": 50
                             }
                         }
                     }
-                },
-                "encoding": {
-                    "tooltip": [{
-                        "field": "id",
-                        "type": "nominal",
-                        "title": "Borough"
-                    }]
-                },
-            }]
-
-
+                }
+            ]
         }
 
     ;

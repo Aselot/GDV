@@ -17,6 +17,10 @@ router.get('/test', function (req,res) {
 router.get('/map', function (req,res) {
     res.render("../views/test3.html");
 });
+router.get('/na', function (req,res) {
+    res.render("../views/londonNA.html");
+});
+
 
 router.get('/londonJSON',function (req,res) {
     let rawdata = fs.readFileSync(__dirname+'/../views/London.json');
