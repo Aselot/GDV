@@ -66,7 +66,7 @@
                 "stroke": 0,
             },
             "data": {
-                "url": "data/londonBoroughs.json",
+                "url": "https://api.jsonbin.io/b/5e1b36c4b236b871b3608757",
                 "format": {
                     "type": "topojson",
                     "feature": "boroughs"
@@ -77,12 +77,20 @@
                 "from": {
                     "data": {"url": "data/ethnicGroups.json"},
                     "key": "Area",
-                    "fields": ["FT workers annual Median", "FT workers annual Mean", "Male FT weekly", "Female FT weekly", "All FT weekly", "all workers"]
+                    "fields": ["Year", "FT workers annual Median", "FT workers annual Mean", "Male FT weekly", "Female FT weekly", "All FT weekly", "all workers"]
                 },
 
             }],
 
-
+            "selection": {
+                "Years": {
+                    "type": "single",
+                    "fields": ["Year"],
+                    "bind": {
+                        "Year": {"input": "range", "min": 2012, "max": 2018, "step": 1}
+                    }
+                }
+            },
 
             "concat": [{
                 "layer": [{
@@ -98,6 +106,8 @@
                     "encoding": {
 
                         "color": {
+
+                            "selection": "Years",
                             "field": "All FT weekly",
                             "type": "quantitative",
                             "scale": {"scheme": "browns"},
@@ -113,7 +123,7 @@
                                 "titlePadding": 15,
                                 "gradientThickness": 13,
                                 "gradientLength": 200,
-                                "title":"Ø Weekly income in pounds",
+                                "title": "Ø Weekly income in pounds",
                             },
                         }
                     },
@@ -121,7 +131,7 @@
 
                 }, {
                     "data": {
-                        "url": "data/londonCentroids.json",
+                        "url": "https://api.jsonbin.io/b/5e1b36a2b236b871b360874a",
                         "format": {
                             "type": "json"
                         }
@@ -130,7 +140,7 @@
                         "pts": {
                             "type": "single",
                             "fields": ["name"],
-                            "nearest":"true"
+                            "nearest": "true"
                         }
                     },
                     "transform": [
@@ -169,18 +179,14 @@
                 },]
             }, {
                 "data": {
-                    "url": "data/ethnicGroups2018.json",
+                    "url": "https://api.jsonbin.io/b/5e1b365bb236b871b3608727",
                 },
-
-                "transform": [{
-                    "filter": {"selection": "pts"},
-                }],
 
                 "repeat": {
                     "row": ["Black", "White", "Asian", "Mixed/ Other"],
                     "column": ["All FT weekly"],
                 },
-                "columns":2,
+                "columns": 2,
                 "spec": {
                     "mark": "circle",
                     "encoding": {
@@ -202,7 +208,7 @@
                                 "domainColor": "#f0e6c9",
                                 "labelColor": "#f0e6c9",
                                 "titleColor": "#f0e6c9",
-                                "title":"Ø Weekly income in pounds"
+                                "title": "Ø Weekly income in pounds"
 
                             },
                         },
