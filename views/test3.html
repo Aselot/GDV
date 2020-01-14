@@ -91,7 +91,7 @@
                         },
                         "darken": {
                             "type": "single",
-                            "empty": "none"
+
                         }
                     },
                     "encoding": {
@@ -99,15 +99,22 @@
                             "field": "id",
                             "type": "nominal",
                             "title": "Borough",
+                            "condition": {"selection": "tooltipOnHover", "value": true},
+
                         }],
+                        "fillOpacity": {
+                              "condition": {"selection": "darken", "value": 1},
+                              "value": 0.3
+                            },
+
                         "color": {
                             "field": "Male FT weekly",
                             "type": "quantitative",
 
-                            "condition": {
-                                "selection": "darken",
-                                
-                            },
+
+
+
+
                             "scale": {"scheme": "browns"},
                             "legend": {
                                 "labelColor": "#f0e6c9",
