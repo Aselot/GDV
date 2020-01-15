@@ -193,6 +193,7 @@
                                 "titlePadding": 15,
                                 "gradientThickness": 13,
                                 "gradientLength": 200,
+                                "offset":-1199,
                                 "title": "Ø Weekly income in pounds"
                             }
                         },
@@ -204,10 +205,85 @@
                         "row": [
                             "Black",
                             "White",
+                        ]
+                    },
+                    column:2,
+                    "spec": {
+                        "mark": {"type": "circle"},
+                        "selection": {
+                            "paintbrush": {
+                                "type": "single",
+                                "on": "mouseover",
+                                "empty": "none"
+                            },
+                            "darkenScatterplot": {
+                                "type": "single",
+                                "on": "mouseover",
+                                "empty": "all",
+                            }
+                        },
+                        "encoding": {
+                            "x": {
+                                "field": {
+                                    "repeat": "row"
+                                },
+                                "type": "quantitative",
+                                "axis": {
+                                    "axisColor": "#f0e6c9",
+                                    "domainColor": "#f0e6c9",
+                                    "labelColor": "#f0e6c9",
+                                    "titleColor": "#f0e6c9"
+                                },
+                                "scale": {
+                                    "domain": [
+                                        0,
+                                        300000
+                                    ]
+                                }
+                            },
+                            "y": {
+                                "field": "All FT weekly",
+                                "type": "quantitative",
+                                "axis": {
+                                    "axisColor": "#f0e6c9",
+                                    "domainColor": "#f0e6c9",
+                                    "labelColor": "#f0e6c9",
+                                    "titleColor": "#f0e6c9",
+                                    "title": "Ø Weekly income in pounds"
+                                }
+                            },
+
+                            "color": {
+                                "field": "All FT weekly",
+                                "type": "quantitative",
+                                "scale": {
+                                    "scheme": "White"
+                                }
+                            },
+
+                            "tooltip": {"field": "id", "type": "nominal"},
+
+                            "size": {
+                                "condition": {
+                                    "selection": {"or": ["paintbrush", "boroughHover"]},
+                                    "value": 300
+                                },
+                                "value": 50,
+                            },
+                            "fillOpacity": {
+                                "condition": {"selection": {"or": ["darkenBorough", "darkenScatterplot"]}, "value": 1},
+                                "value": 0.5
+                            },
+                        }
+                    }
+                },{
+                    "repeat": {
+                        "row": [
                             "Asian",
                             "Mixed/ Other"
                         ]
                     },
+                    column:2,
                     "spec": {
                         "mark": {"type": "circle"},
                         "selection": {
